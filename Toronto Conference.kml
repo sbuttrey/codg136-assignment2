@@ -1,0 +1,3345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Toronto Conference</name>
+    <description/>
+    <Style id="icon-1899-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-0288D1-1200-77-nodesc-normal">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4dd18802</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="poly-0288D1-1200-77-nodesc-highlight">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4dd18802</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="poly-0288D1-1200-77-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-0288D1-1200-77-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-0288D1-1200-77-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-7CB342-1200-77-nodesc-normal">
+      <LineStyle>
+        <color>ff42b37c</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d42b37c</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="poly-7CB342-1200-77-nodesc-highlight">
+      <LineStyle>
+        <color>ff42b37c</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d42b37c</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="poly-7CB342-1200-77-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-7CB342-1200-77-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-7CB342-1200-77-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-E65100-1200-77-nodesc-normal">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d0051e6</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="poly-E65100-1200-77-nodesc-highlight">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d0051e6</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="poly-E65100-1200-77-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-E65100-1200-77-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-E65100-1200-77-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-FFEA00-1200-77-nodesc-normal">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d00eaff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="poly-FFEA00-1200-77-nodesc-highlight">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d00eaff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="poly-FFEA00-1200-77-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-FFEA00-1200-77-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-FFEA00-1200-77-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>RegionalCouncil10.csv</name>
+      <Placemark>
+        <name>Alderwood Pastoral Charge</name>
+        <address>44 Delma Dr Toronto ON Canada M8W 4N6</address>
+        <description><![CDATA[pastoral_charge_id: 1983<br>conference_name: Toronto Conference<br>presbytery_name: South West Presbytery<br>region_seq: 10<br>location_street: 44 Delma Dr<br>location_city: Toronto<br>location_province: ON<br>location_country: Canada<br>location_postal_code: M8W 4N6<br>pastoral_charge_ms_num: 5140150]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="pastoral_charge_id">
+            <value>1983.0</value>
+          </Data>
+          <Data name="conference_name">
+            <value>Toronto Conference</value>
+          </Data>
+          <Data name="presbytery_name">
+            <value>South West Presbytery</value>
+          </Data>
+          <Data name="region_seq">
+            <value>10.0</value>
+          </Data>
+          <Data name="location_street">
+            <value>44 Delma Dr</value>
+          </Data>
+          <Data name="location_city">
+            <value>Toronto</value>
+          </Data>
+          <Data name="location_province">
+            <value>ON</value>
+          </Data>
+          <Data name="location_country">
+            <value>Canada</value>
+          </Data>
+          <Data name="location_postal_code">
+            <value>M8W 4N6</value>
+          </Data>
+          <Data name="pastoral_charge_ms_num">
+            <value>5140150.0</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Alpha Korean (EM) Pastoral Charge</name>
+        <address>49 Bogert Ave North York ON Canada M2N 1K4</address>
+        <description><![CDATA[pastoral_charge_id: 1511618<br>conference_name: Toronto Conference<br>presbytery_name: Toronto Southeast Presbytery<br>region_seq: 10<br>location_street: 49 Bogert Ave<br>location_city: North York<br>location_province: ON<br>location_country: Canada<br>location_postal_code: M2N 1K4<br>pastoral_charge_ms_num: 5150010]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="pastoral_charge_id">
+            <value>1511618.0</value>
+          </Data>
+          <Data name="conference_name">
+            <value>Toronto Conference</value>
+          </Data>
+          <Data name="presbytery_name">
+            <value>Toronto Southeast Presbytery</value>
+          </Data>
+          <Data name="region_seq">
+            <value>10.0</value>
+          </Data>
+          <Data name="location_street">
+            <value>49 Bogert Ave</value>
+          </Data>
+          <Data name="location_city">
+            <value>North York</value>
+          </Data>
+          <Data name="location_province">
+            <value>ON</value>
+          </Data>
+          <Data name="location_country">
+            <value>Canada</value>
+          </Data>
+          <Data name="location_postal_code">
+            <value>M2N 1K4</value>
+          </Data>
+          <Data name="pastoral_charge_ms_num">
+            <value>5150010.0</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Asbury and West Pastoral Charge</name>
+        <address>3180 Bathurst St Toronto ON Canada M6A 2A9</address>
+        <description><![CDATA[pastoral_charge_id: 1819<br>conference_name: Toronto Conference<br>presbytery_name: South West Presbytery<br>region_seq: 10<br>location_street: 3180 Bathurst St<br>location_city: Toronto<br>location_province: ON<br>location_country: Canada<br>location_postal_code: M6A 2A9<br>pastoral_charge_ms_num: 5140160]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="pastoral_charge_id">
+            <value>1819.0</value>
+          </Data>
+          <Data name="conference_name">
+            <value>Toronto Conference</value>
+          </Data>
+          <Data name="presbytery_name">
+            <value>South West Presbytery</value>
+          </Data>
+          <Data name="region_seq">
+            <value>10.0</value>
+          </Data>
+          <Data name="location_street">
+            <value>3180 Bathurst St</value>
+          </Data>
+          <Data name="location_city">
+            <value>Toronto</value>
+          </Data>
+          <Data name="location_province">
+            <value>ON</value>
+          </Data>
+          <Data name="location_country">
+            <value>Canada</value>
+          </Data>
+          <Data name="location_postal_code">
+            <value>M6A 2A9</value>
+          </Data>
+          <Data name="pastoral_charge_ms_num">
+            <value>5140160.0</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Bathurst Street Pastoral Charge</name>
+        <address>427 Bloor St W Toronto ON Canada M5S 1X7</address>
+        <description><![CDATA[pastoral_charge_id: 1913<br>conference_name: Toronto Conference<br>presbytery_name: Toronto Southeast Presbytery<br>region_seq: 10<br>location_street: 427 Bloor St W<br>location_city: Toronto<br>location_province: ON<br>location_country: Canada<br>location_postal_code: M5S 1X7<br>pastoral_charge_ms_num: 5150020]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="pastoral_charge_id">
+            <value>1913.0</value>
+          </Data>
+          <Data name="conference_name">
+            <value>Toronto Conference</value>
+          </Data>
+          <Data name="presbytery_name">
+            <value>Toronto Southeast Presbytery</value>
+          </Data>
+          <Data name="region_seq">
+            <value>10.0</value>
+          </Data>
+          <Data name="location_street">
+            <value>427 Bloor St W</value>
+          </Data>
+          <Data name="location_city">
+            <value>Toronto</value>
+          </Data>
+          <Data name="location_province">
+            <value>ON</value>
+          </Data>
+          <Data name="location_country">
+            <value>Canada</value>
+          </Data>
+          <Data name="location_postal_code">
+            <value>M5S 1X7</value>
+          </Data>
+          <Data name="pastoral_charge_ms_num">
+            <value>5150020.0</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Bayview Pastoral Charge</name>
+        <address>2609 Bayview Ave. Toronto ON Canada M2L 1B5</address>
+        <description><![CDATA[pastoral_charge_id: 1899535<br>conference_name: Toronto Conference<br>presbytery_name: South West Presbytery<br>region_seq: 10<br>location_street: 2609 Bayview Ave.<br>location_city: Toronto<br>location_province: ON<br>location_country: Canada<br>location_postal_code: M2L 1B5<br>pastoral_charge_ms_num: 5140630]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="pastoral_charge_id">
+            <value>1899535.0</value>
+          </Data>
+          <Data name="conference_name">
+            <value>Toronto Conference</value>
+          </Data>
+          <Data name="presbytery_name">
+            <value>South West Presbytery</value>
+          </Data>
+          <Data name="region_seq">
+            <value>10.0</value>
+          </Data>
+          <Data name="location_street">
+            <value>2609 Bayview Ave.</value>
+          </Data>
+          <Data name="location_city">
+            <value>Toronto</value>
+          </Data>
+          <Data name="location_province">
+            <value>ON</value>
+          </Data>
+          <Data name="location_country">
+            <value>Canada</value>
+          </Data>
+          <Data name="location_postal_code">
+            <value>M2L 1B5</value>
+          </Data>
+          <Data name="pastoral_charge_ms_num">
+            <value>5140630.0</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Beach Pastoral Charge</name>
+        <address>140 Wineva Ave. Toronto ON Canada M4E 2T4</address>
+        <description><![CDATA[pastoral_charge_id: 1632144<br>conference_name: Toronto Conference<br>presbytery_name: Toronto Southeast Presbytery<br>region_seq: 10<br>location_street: 140 Wineva Ave.<br>location_city: Toronto<br>location_province: ON<br>location_country: Canada<br>location_postal_code: M4E 2T4<br>pastoral_charge_ms_num: 5150030]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="pastoral_charge_id">
+            <value>1632144.0</value>
+          </Data>
+          <Data name="conference_name">
+            <value>Toronto Conference</value>
+          </Data>
+          <Data name="presbytery_name">
+            <value>Toronto Southeast Presbytery</value>
+          </Data>
+          <Data name="region_seq">
+            <value>10.0</value>
+          </Data>
+          <Data name="location_street">
+            <value>140 Wineva Ave.</value>
+          </Data>
+          <Data name="location_city">
+            <value>Toronto</value>
+          </Data>
+          <Data name="location_province">
+            <value>ON</value>
+          </Data>
+          <Data name="location_country">
+            <value>Canada</value>
+          </Data>
+          <Data name="location_postal_code">
+            <value>M4E 2T4</value>
+          </Data>
+          <Data name="pastoral_charge_ms_num">
+            <value>5150030.0</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Birchcliff Bluffs Pastoral Charge</name>
+        <address>33 East Rd Scarborough ON Canada M1N 1Z9</address>
+        <description><![CDATA[pastoral_charge_id: 1495395<br>conference_name: Toronto Conference<br>presbytery_name: Toronto Southeast Presbytery<br>region_seq: 10<br>location_street: 33 East Rd<br>location_city: Scarborough<br>location_province: ON<br>location_country: Canada<br>location_postal_code: M1N 1Z9<br>pastoral_charge_ms_num: 5150050]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="pastoral_charge_id">
+            <value>1495395.0</value>
+          </Data>
+          <Data name="conference_name">
+            <value>Toronto Conference</value>
+          </Data>
+          <Data name="presbytery_name">
+            <value>Toronto Southeast Presbytery</value>
+          </Data>
+          <Data name="region_seq">
+            <value>10.0</value>
+          </Data>
+          <Data name="location_street">
+            <value>33 East Rd</value>
+          </Data>
+          <Data name="location_city">
+            <value>Scarborough</value>
+          </Data>
+          <Data name="location_province">
+            <value>ON</value>
+          </Data>
+          <Data name="location_country">
+            <value>Canada</value>
+          </Data>
+          <Data name="location_postal_code">
+            <value>M1N 1Z9</value>
+          </Data>
+          <Data name="pastoral_charge_ms_num">
+            <value>5150050.0</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Bloor Street Pastoral Charge</name>
+        <address>300 Bloor St W Toronto ON Canada M5S 1W3</address>
+        <description><![CDATA[pastoral_charge_id: 1919<br>conference_name: Toronto Conference<br>presbytery_name: Toronto Southeast Presbytery<br>region_seq: 10<br>location_street: 300 Bloor St W<br>location_city: Toronto<br>location_province: ON<br>location_country: Canada<br>location_postal_code: M5S 1W3<br>pastoral_charge_ms_num: 5150060]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="pastoral_charge_id">
+            <value>1919.0</value>
+          </Data>
+          <Data name="conference_name">
+            <value>Toronto Conference</value>
+          </Data>
+          <Data name="presbytery_name">
+            <value>Toronto Southeast Presbytery</value>
+          </Data>
+          <Data name="region_seq">
+            <value>10.0</value>
+          </Data>
+          <Data name="location_street">
+            <value>300 Bloor St W</value>
+          </Data>
+          <Data name="location_city">
+            <value>Toronto</value>
+          </Data>
+          <Data name="location_province">
+            <value>ON</value>
+          </Data>
+          <Data name="location_country">
+            <value>Canada</value>
+          </Data>
+          <Data name="location_postal_code">
+            <value>M5S 1W3</value>
+          </Data>
+          <Data name="pastoral_charge_ms_num">
+            <value>5150060.0</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Bloordale Pastoral Charge</name>
+        <address>4258 Bloor St W Etobicoke ON Canada M9C 1Z7</address>
+        <description><![CDATA[pastoral_charge_id: 1987<br>conference_name: Toronto Conference<br>presbytery_name: South West Presbytery<br>region_seq: 10<br>location_street: 4258 Bloor St W<br>location_city: Etobicoke<br>location_province: ON<br>location_country: Canada<br>location_postal_code: M9C 1Z7<br>pastoral_charge_ms_num: 5140180]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="pastoral_charge_id">
+            <value>1987.0</value>
+          </Data>
+          <Data name="conference_name">
+            <value>Toronto Conference</value>
+          </Data>
+          <Data name="presbytery_name">
+            <value>South West Presbytery</value>
+          </Data>
+          <Data name="region_seq">
+            <value>10.0</value>
+          </Data>
+          <Data name="location_street">
+            <value>4258 Bloor St W</value>
+          </Data>
+          <Data name="location_city">
+            <value>Etobicoke</value>
+          </Data>
+          <Data name="location_province">
+            <value>ON</value>
+          </Data>
+          <Data name="location_country">
+            <value>Canada</value>
+          </Data>
+          <Data name="location_postal_code">
+            <value>M9C 1Z7</value>
+          </Data>
+          <Data name="pastoral_charge_ms_num">
+            <value>5140180.0</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Central, Weston Pastoral Charge</name>
+        <address>1 King St Weston ON Canada M9N 1K8</address>
+        <description><![CDATA[pastoral_charge_id: 1991<br>conference_name: Toronto Conference<br>presbytery_name: South West Presbytery<br>region_seq: 10<br>location_street: 1 King St<br>location_city: Weston<br>location_province: ON<br>location_country: Canada<br>location_postal_code: M9N 1K8<br>pastoral_charge_ms_num: 5140200]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="pastoral_charge_id">
+            <value>1991.0</value>
+          </Data>
+          <Data name="conference_name">
+            <value>Toronto Conference</value>
+          </Data>
+          <Data name="presbytery_name">
+            <value>South West Presbytery</value>
+          </Data>
+          <Data name="region_seq">
+            <value>10.0</value>
+          </Data>
+          <Data name="location_street">
+            <value>1 King St</value>
+          </Data>
+          <Data name="location_city">
+            <value>Weston</value>
+          </Data>
+          <Data name="location_province">
+            <value>ON</value>
+          </Data>
+          <Data name="location_country">
+            <value>Canada</value>
+          </Data>
+          <Data name="location_postal_code">
+            <value>M9N 1K8</value>
+          </Data>
+          <Data name="pastoral_charge_ms_num">
+            <value>5140200.0</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>College Street Pastoral Charge</name>
+        <address>454 College St Toronto ON Canada M6G 1A1</address>
+        <description><![CDATA[pastoral_charge_id: 1921<br>conference_name: Toronto Conference<br>presbytery_name: Toronto Southeast Presbytery<br>region_seq: 10<br>location_street: 454 College St<br>location_city: Toronto<br>location_province: ON<br>location_country: Canada<br>location_postal_code: M6G 1A1<br>pastoral_charge_ms_num: 5150090]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="pastoral_charge_id">
+            <value>1921.0</value>
+          </Data>
+          <Data name="conference_name">
+            <value>Toronto Conference</value>
+          </Data>
+          <Data name="presbytery_name">
+            <value>Toronto Southeast Presbytery</value>
+          </Data>
+          <Data name="region_seq">
+            <value>10.0</value>
+          </Data>
+          <Data name="location_street">
+            <value>454 College St</value>
+          </Data>
+          <Data name="location_city">
+            <value>Toronto</value>
+          </Data>
+          <Data name="location_province">
+            <value>ON</value>
+          </Data>
+          <Data name="location_country">
+            <value>Canada</value>
+          </Data>
+          <Data name="location_postal_code">
+            <value>M6G 1A1</value>
+          </Data>
+          <Data name="pastoral_charge_ms_num">
+            <value>5150090.0</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Cosburn Pastoral Charge</name>
+        <address>1108 Greenwood Ave Toronto ON Canada M4J 4E6</address>
+        <description><![CDATA[pastoral_charge_id: 1823<br>conference_name: Toronto Conference<br>presbytery_name: Toronto Southeast Presbytery<br>region_seq: 10<br>location_street: 1108 Greenwood Ave<br>location_city: Toronto<br>location_province: ON<br>location_country: Canada<br>location_postal_code: M4J 4E6<br>pastoral_charge_ms_num: 5150100]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="pastoral_charge_id">
+            <value>1823.0</value>
+          </Data>
+          <Data name="conference_name">
+            <value>Toronto Conference</value>
+          </Data>
+          <Data name="presbytery_name">
+            <value>Toronto Southeast Presbytery</value>
+          </Data>
+          <Data name="region_seq">
+            <value>10.0</value>
+          </Data>
+          <Data name="location_street">
+            <value>1108 Greenwood Ave</value>
+          </Data>
+          <Data name="location_city">
+            <value>Toronto</value>
+          </Data>
+          <Data name="location_province">
+            <value>ON</value>
+          </Data>
+          <Data name="location_country">
+            <value>Canada</value>
+          </Data>
+          <Data name="location_postal_code">
+            <value>M4J 4E6</value>
+          </Data>
+          <Data name="pastoral_charge_ms_num">
+            <value>5150100.0</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Cummer Avenue Pastoral Charge</name>
+        <address>53 Cummer Ave Toronto ON Canada M2M 2E5</address>
+        <description><![CDATA[pastoral_charge_id: 1856773<br>conference_name: Toronto Conference<br>presbytery_name: South West Presbytery<br>region_seq: 10<br>location_street: 53 Cummer Ave<br>location_city: Toronto<br>location_province: ON<br>location_country: Canada<br>location_postal_code: M2M 2E5<br>pastoral_charge_ms_num: 5140610]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="pastoral_charge_id">
+            <value>1856773.0</value>
+          </Data>
+          <Data name="conference_name">
+            <value>Toronto Conference</value>
+          </Data>
+          <Data name="presbytery_name">
+            <value>South West Presbytery</value>
+          </Data>
+          <Data name="region_seq">
+            <value>10.0</value>
+          </Data>
+          <Data name="location_street">
+            <value>53 Cummer Ave</value>
+          </Data>
+          <Data name="location_city">
+            <value>Toronto</value>
+          </Data>
+          <Data name="location_province">
+            <value>ON</value>
+          </Data>
+          <Data name="location_country">
+            <value>Canada</value>
+          </Data>
+          <Data name="location_postal_code">
+            <value>M2M 2E5</value>
+          </Data>
+          <Data name="pastoral_charge_ms_num">
+            <value>5140610.0</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Davenport-Perth Pastoral Charge</name>
+        <address>1900 Davenport Rd Toronto ON Canada M6N 1B7</address>
+        <description><![CDATA[pastoral_charge_id: 1995<br>conference_name: Toronto Conference<br>presbytery_name: South West Presbytery<br>region_seq: 10<br>location_street: 1900 Davenport Rd<br>location_city: Toronto<br>location_province: ON<br>location_country: Canada<br>location_postal_code: M6N 1B7<br>pastoral_charge_ms_num: 5140210]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="pastoral_charge_id">
+            <value>1995.0</value>
+          </Data>
+          <Data name="conference_name">
+            <value>Toronto Conference</value>
+          </Data>
+          <Data name="presbytery_name">
+            <value>South West Presbytery</value>
+          </Data>
+          <Data name="region_seq">
+            <value>10.0</value>
+          </Data>
+          <Data name="location_street">
+            <value>1900 Davenport Rd</value>
+          </Data>
+          <Data name="location_city">
+            <value>Toronto</value>
+          </Data>
+          <Data name="location_province">
+            <value>ON</value>
+          </Data>
+          <Data name="location_country">
+            <value>Canada</value>
+          </Data>
+          <Data name="location_postal_code">
+            <value>M6N 1B7</value>
+          </Data>
+          <Data name="pastoral_charge_ms_num">
+            <value>5140210.0</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Deer Park (SM) Pastoral Charge</name>
+        <address>26 Delisle Ave Toronto ON Canada M4V 1S5</address>
+        <description><![CDATA[pastoral_charge_id: 1923<br>conference_name: Toronto Conference<br>presbytery_name: Toronto Southeast Presbytery<br>region_seq: 10<br>location_street: 26 Delisle Ave<br>location_city: Toronto<br>location_province: ON<br>location_country: Canada<br>location_postal_code: M4V 1S5<br>pastoral_charge_ms_num: 5150110]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="pastoral_charge_id">
+            <value>1923.0</value>
+          </Data>
+          <Data name="conference_name">
+            <value>Toronto Conference</value>
+          </Data>
+          <Data name="presbytery_name">
+            <value>Toronto Southeast Presbytery</value>
+          </Data>
+          <Data name="region_seq">
+            <value>10.0</value>
+          </Data>
+          <Data name="location_street">
+            <value>26 Delisle Ave</value>
+          </Data>
+          <Data name="location_city">
+            <value>Toronto</value>
+          </Data>
+          <Data name="location_province">
+            <value>ON</value>
+          </Data>
+          <Data name="location_country">
+            <value>Canada</value>
+          </Data>
+          <Data name="location_postal_code">
+            <value>M4V 1S5</value>
+          </Data>
+          <Data name="pastoral_charge_ms_num">
+            <value>5150110.0</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Dentonia Park Pastoral Charge</name>
+        <address>2550 Danforth Ave Toronto ON Canada M4C 1L2</address>
+        <description><![CDATA[pastoral_charge_id: 1825<br>conference_name: Toronto Conference<br>presbytery_name: Toronto Southeast Presbytery<br>region_seq: 10<br>location_street: 2550 Danforth Ave<br>location_city: Toronto<br>location_province: ON<br>location_country: Canada<br>location_postal_code: M4C 1L2<br>pastoral_charge_ms_num: 5150120]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="pastoral_charge_id">
+            <value>1825.0</value>
+          </Data>
+          <Data name="conference_name">
+            <value>Toronto Conference</value>
+          </Data>
+          <Data name="presbytery_name">
+            <value>Toronto Southeast Presbytery</value>
+          </Data>
+          <Data name="region_seq">
+            <value>10.0</value>
+          </Data>
+          <Data name="location_street">
+            <value>2550 Danforth Ave</value>
+          </Data>
+          <Data name="location_city">
+            <value>Toronto</value>
+          </Data>
+          <Data name="location_province">
+            <value>ON</value>
+          </Data>
+          <Data name="location_country">
+            <value>Canada</value>
+          </Data>
+          <Data name="location_postal_code">
+            <value>M4C 1L2</value>
+          </Data>
+          <Data name="pastoral_charge_ms_num">
+            <value>5150120.0</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Deutsche Evangeliums Kirche (EM) Pastoral Charge</name>
+        <address>20 Glebe Rd E Toronto ON Canada M4S 1N6</address>
+        <description><![CDATA[pastoral_charge_id: 1925<br>conference_name: Toronto Conference<br>presbytery_name: Toronto Southeast Presbytery<br>region_seq: 10<br>location_street: 20 Glebe Rd E<br>location_city: Toronto<br>location_province: ON<br>location_country: Canada<br>location_postal_code: M4S 1N6<br>pastoral_charge_ms_num: 5150130]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="pastoral_charge_id">
+            <value>1925.0</value>
+          </Data>
+          <Data name="conference_name">
+            <value>Toronto Conference</value>
+          </Data>
+          <Data name="presbytery_name">
+            <value>Toronto Southeast Presbytery</value>
+          </Data>
+          <Data name="region_seq">
+            <value>10.0</value>
+          </Data>
+          <Data name="location_street">
+            <value>20 Glebe Rd E</value>
+          </Data>
+          <Data name="location_city">
+            <value>Toronto</value>
+          </Data>
+          <Data name="location_province">
+            <value>ON</value>
+          </Data>
+          <Data name="location_country">
+            <value>Canada</value>
+          </Data>
+          <Data name="location_postal_code">
+            <value>M4S 1N6</value>
+          </Data>
+          <Data name="pastoral_charge_ms_num">
+            <value>5150130.0</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Dewi Sant Welsh (EM) Pastoral Charge</name>
+        <address>33 Melrose Ave Toronto ON Canada M5M 1Y6</address>
+        <description><![CDATA[pastoral_charge_id: 1927<br>conference_name: Toronto Conference<br>presbytery_name: Toronto Southeast Presbytery<br>region_seq: 10<br>location_street: 33 Melrose Ave<br>location_city: Toronto<br>location_province: ON<br>location_country: Canada<br>location_postal_code: M5M 1Y6<br>pastoral_charge_ms_num: 5150140]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="pastoral_charge_id">
+            <value>1927.0</value>
+          </Data>
+          <Data name="conference_name">
+            <value>Toronto Conference</value>
+          </Data>
+          <Data name="presbytery_name">
+            <value>Toronto Southeast Presbytery</value>
+          </Data>
+          <Data name="region_seq">
+            <value>10.0</value>
+          </Data>
+          <Data name="location_street">
+            <value>33 Melrose Ave</value>
+          </Data>
+          <Data name="location_city">
+            <value>Toronto</value>
+          </Data>
+          <Data name="location_province">
+            <value>ON</value>
+          </Data>
+          <Data name="location_country">
+            <value>Canada</value>
+          </Data>
+          <Data name="location_postal_code">
+            <value>M5M 1Y6</value>
+          </Data>
+          <Data name="pastoral_charge_ms_num">
+            <value>5150140.0</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Don Mills-Thorncliffe Park Pastoral Charge</name>
+        <address>16 Thorncliffe Park Dr Toronto ON Canada M4H 1H4</address>
+        <description><![CDATA[pastoral_charge_id: 1393075<br>conference_name: Toronto Conference<br>presbytery_name: Toronto Southeast Presbytery<br>region_seq: 10<br>location_street: 16 Thorncliffe Park Dr<br>location_city: Toronto<br>location_province: ON<br>location_country: Canada<br>location_postal_code: M4H 1H4<br>pastoral_charge_ms_num: 5150150]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="pastoral_charge_id">
+            <value>1393075.0</value>
+          </Data>
+          <Data name="conference_name">
+            <value>Toronto Conference</value>
+          </Data>
+          <Data name="presbytery_name">
+            <value>Toronto Southeast Presbytery</value>
+          </Data>
+          <Data name="region_seq">
+            <value>10.0</value>
+          </Data>
+          <Data name="location_street">
+            <value>16 Thorncliffe Park Dr</value>
+          </Data>
+          <Data name="location_city">
+            <value>Toronto</value>
+          </Data>
+          <Data name="location_province">
+            <value>ON</value>
+          </Data>
+          <Data name="location_country">
+            <value>Canada</value>
+          </Data>
+          <Data name="location_postal_code">
+            <value>M4H 1H4</value>
+          </Data>
+          <Data name="pastoral_charge_ms_num">
+            <value>5150150.0</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Downsview Pastoral Charge</name>
+        <address>2822 Keele St Downsview ON Canada M3M 2G4</address>
+        <description><![CDATA[pastoral_charge_id: 1997<br>conference_name: Toronto Conference<br>presbytery_name: South West Presbytery<br>region_seq: 10<br>location_street: 2822 Keele St<br>location_city: Downsview<br>location_province: ON<br>location_country: Canada<br>location_postal_code: M3M 2G4<br>pastoral_charge_ms_num: 5140220]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="pastoral_charge_id">
+            <value>1997.0</value>
+          </Data>
+          <Data name="conference_name">
+            <value>Toronto Conference</value>
+          </Data>
+          <Data name="presbytery_name">
+            <value>South West Presbytery</value>
+          </Data>
+          <Data name="region_seq">
+            <value>10.0</value>
+          </Data>
+          <Data name="location_street">
+            <value>2822 Keele St</value>
+          </Data>
+          <Data name="location_city">
+            <value>Downsview</value>
+          </Data>
+          <Data name="location_province">
+            <value>ON</value>
+          </Data>
+          <Data name="location_country">
+            <value>Canada</value>
+          </Data>
+          <Data name="location_postal_code">
+            <value>M3M 2G4</value>
+          </Data>
+          <Data name="pastoral_charge_ms_num">
+            <value>5140220.0</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Eastminster Pastoral Charge</name>
+        <address>310 Danforth Ave Toronto ON Canada M4K 1N6</address>
+        <description><![CDATA[pastoral_charge_id: 1929<br>conference_name: Toronto Conference<br>presbytery_name: Toronto Southeast Presbytery<br>region_seq: 10<br>location_street: 310 Danforth Ave<br>location_city: Toronto<br>location_province: ON<br>location_country: Canada<br>location_postal_code: M4K 1N6<br>pastoral_charge_ms_num: 5150160]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="pastoral_charge_id">
+            <value>1929.0</value>
+          </Data>
+          <Data name="conference_name">
+            <value>Toronto Conference</value>
+          </Data>
+          <Data name="presbytery_name">
+            <value>Toronto Southeast Presbytery</value>
+          </Data>
+          <Data name="region_seq">
+            <value>10.0</value>
+          </Data>
+          <Data name="location_street">
+            <value>310 Danforth Ave</value>
+          </Data>
+          <Data name="location_city">
+            <value>Toronto</value>
+          </Data>
+          <Data name="location_province">
+            <value>ON</value>
+          </Data>
+          <Data name="location_country">
+            <value>Canada</value>
+          </Data>
+          <Data name="location_postal_code">
+            <value>M4K 1N6</value>
+          </Data>
+          <Data name="pastoral_charge_ms_num">
+            <value>5150160.0</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Eglinton St. George's Pastoral Charge]]></name>
+        <address>35 Lytton Blvd Toronto ON Canada M4R 1L2</address>
+        <description><![CDATA[pastoral_charge_id: 1369293<br>conference_name: Toronto Conference<br>presbytery_name: Toronto Southeast Presbytery<br>region_seq: 10<br>location_street: 35 Lytton Blvd<br>location_city: Toronto<br>location_province: ON<br>location_country: Canada<br>location_postal_code: M4R 1L2<br>pastoral_charge_ms_num: 5150180]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="pastoral_charge_id">
+            <value>1369293.0</value>
+          </Data>
+          <Data name="conference_name">
+            <value>Toronto Conference</value>
+          </Data>
+          <Data name="presbytery_name">
+            <value>Toronto Southeast Presbytery</value>
+          </Data>
+          <Data name="region_seq">
+            <value>10.0</value>
+          </Data>
+          <Data name="location_street">
+            <value>35 Lytton Blvd</value>
+          </Data>
+          <Data name="location_city">
+            <value>Toronto</value>
+          </Data>
+          <Data name="location_province">
+            <value>ON</value>
+          </Data>
+          <Data name="location_country">
+            <value>Canada</value>
+          </Data>
+          <Data name="location_postal_code">
+            <value>M4R 1L2</value>
+          </Data>
+          <Data name="pastoral_charge_ms_num">
+            <value>5150180.0</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Fairbank Pastoral Charge</name>
+        <address>2750 Dufferin St Toronto ON Canada M6B 3R4</address>
+        <description><![CDATA[pastoral_charge_id: 2005<br>conference_name: Toronto Conference<br>presbytery_name: South West Presbytery<br>region_seq: 10<br>location_street: 2750 Dufferin St<br>location_city: Toronto<br>location_province: ON<br>location_country: Canada<br>location_postal_code: M6B 3R4<br>pastoral_charge_ms_num: 5140240]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="pastoral_charge_id">
+            <value>2005.0</value>
+          </Data>
+          <Data name="conference_name">
+            <value>Toronto Conference</value>
+          </Data>
+          <Data name="presbytery_name">
+            <value>South West Presbytery</value>
+          </Data>
+          <Data name="region_seq">
+            <value>10.0</value>
+          </Data>
+          <Data name="location_street">
+            <value>2750 Dufferin St</value>
+          </Data>
+          <Data name="location_city">
+            <value>Toronto</value>
+          </Data>
+          <Data name="location_province">
+            <value>ON</value>
+          </Data>
+          <Data name="location_country">
+            <value>Canada</value>
+          </Data>
+          <Data name="location_postal_code">
+            <value>M6B 3R4</value>
+          </Data>
+          <Data name="pastoral_charge_ms_num">
+            <value>5140240.0</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Fairlawn Avenue Pastoral Charge</name>
+        <address>28 Fairlawn Avenue Toronto ON Canada M5M 1S7</address>
+        <description><![CDATA[pastoral_charge_id: 1606589<br>conference_name: Toronto Conference<br>presbytery_name: Toronto Southeast Presbytery<br>region_seq: 10<br>location_street: 28 Fairlawn Avenue<br>location_city: Toronto<br>location_province: ON<br>location_country: Canada<br>location_postal_code: M5M 1S7<br>pastoral_charge_ms_num: 5150190]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="pastoral_charge_id">
+            <value>1606589.0</value>
+          </Data>
+          <Data name="conference_name">
+            <value>Toronto Conference</value>
+          </Data>
+          <Data name="presbytery_name">
+            <value>Toronto Southeast Presbytery</value>
+          </Data>
+          <Data name="region_seq">
+            <value>10.0</value>
+          </Data>
+          <Data name="location_street">
+            <value>28 Fairlawn Avenue</value>
+          </Data>
+          <Data name="location_city">
+            <value>Toronto</value>
+          </Data>
+          <Data name="location_province">
+            <value>ON</value>
+          </Data>
+          <Data name="location_country">
+            <value>Canada</value>
+          </Data>
+          <Data name="location_postal_code">
+            <value>M5M 1S7</value>
+          </Data>
+          <Data name="pastoral_charge_ms_num">
+            <value>5150190.0</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Forest Grove Pastoral Charge</name>
+        <address>43 Forest Grove Dr Willowdale ON Canada M2K 1Z4</address>
+        <description><![CDATA[pastoral_charge_id: 1835<br>conference_name: Toronto Conference<br>presbytery_name: South West Presbytery<br>region_seq: 10<br>location_street: 43 Forest Grove Dr<br>location_city: Willowdale<br>location_province: ON<br>location_country: Canada<br>location_postal_code: M2K 1Z4<br>pastoral_charge_ms_num: 5140250]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="pastoral_charge_id">
+            <value>1835.0</value>
+          </Data>
+          <Data name="conference_name">
+            <value>Toronto Conference</value>
+          </Data>
+          <Data name="presbytery_name">
+            <value>South West Presbytery</value>
+          </Data>
+          <Data name="region_seq">
+            <value>10.0</value>
+          </Data>
+          <Data name="location_street">
+            <value>43 Forest Grove Dr</value>
+          </Data>
+          <Data name="location_city">
+            <value>Willowdale</value>
+          </Data>
+          <Data name="location_province">
+            <value>ON</value>
+          </Data>
+          <Data name="location_country">
+            <value>Canada</value>
+          </Data>
+          <Data name="location_postal_code">
+            <value>M2K 1Z4</value>
+          </Data>
+          <Data name="pastoral_charge_ms_num">
+            <value>5140250.0</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Forest Hill Pastoral Charge</name>
+        <address>2 Wembley Rd Toronto ON Canada M6C 2E9</address>
+        <description><![CDATA[pastoral_charge_id: 1937<br>conference_name: Toronto Conference<br>presbytery_name: South West Presbytery<br>region_seq: 10<br>location_street: 2 Wembley Rd<br>location_city: Toronto<br>location_province: ON<br>location_country: Canada<br>location_postal_code: M6C 2E9<br>pastoral_charge_ms_num: 5140260]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="pastoral_charge_id">
+            <value>1937.0</value>
+          </Data>
+          <Data name="conference_name">
+            <value>Toronto Conference</value>
+          </Data>
+          <Data name="presbytery_name">
+            <value>South West Presbytery</value>
+          </Data>
+          <Data name="region_seq">
+            <value>10.0</value>
+          </Data>
+          <Data name="location_street">
+            <value>2 Wembley Rd</value>
+          </Data>
+          <Data name="location_city">
+            <value>Toronto</value>
+          </Data>
+          <Data name="location_province">
+            <value>ON</value>
+          </Data>
+          <Data name="location_country">
+            <value>Canada</value>
+          </Data>
+          <Data name="location_postal_code">
+            <value>M6C 2E9</value>
+          </Data>
+          <Data name="pastoral_charge_ms_num">
+            <value>5140260.0</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Ghana Calvary Methodist (EM) Pastoral Charge</name>
+        <address>65 Mayall Ave Toronto ON Canada M3L 1E7</address>
+        <description><![CDATA[pastoral_charge_id: 1406557<br>conference_name: Toronto Conference<br>presbytery_name: South West Presbytery<br>region_seq: 10<br>location_street: 65 Mayall Ave<br>location_city: Toronto<br>location_province: ON<br>location_country: Canada<br>location_postal_code: M3L 1E7<br>pastoral_charge_ms_num: 5140270]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="pastoral_charge_id">
+            <value>1406557.0</value>
+          </Data>
+          <Data name="conference_name">
+            <value>Toronto Conference</value>
+          </Data>
+          <Data name="presbytery_name">
+            <value>South West Presbytery</value>
+          </Data>
+          <Data name="region_seq">
+            <value>10.0</value>
+          </Data>
+          <Data name="location_street">
+            <value>65 Mayall Ave</value>
+          </Data>
+          <Data name="location_city">
+            <value>Toronto</value>
+          </Data>
+          <Data name="location_province">
+            <value>ON</value>
+          </Data>
+          <Data name="location_country">
+            <value>Canada</value>
+          </Data>
+          <Data name="location_postal_code">
+            <value>M3L 1E7</value>
+          </Data>
+          <Data name="pastoral_charge_ms_num">
+            <value>5140270.0</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Glebe Road Pastoral Charge</name>
+        <address>20 Glebe Rd E Toronto ON Canada M4S 1N6</address>
+        <description><![CDATA[pastoral_charge_id: 1939<br>conference_name: Toronto Conference<br>presbytery_name: Toronto Southeast Presbytery<br>region_seq: 10<br>location_street: 20 Glebe Rd E<br>location_city: Toronto<br>location_province: ON<br>location_country: Canada<br>location_postal_code: M4S 1N6<br>pastoral_charge_ms_num: 5150210]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="pastoral_charge_id">
+            <value>1939.0</value>
+          </Data>
+          <Data name="conference_name">
+            <value>Toronto Conference</value>
+          </Data>
+          <Data name="presbytery_name">
+            <value>Toronto Southeast Presbytery</value>
+          </Data>
+          <Data name="region_seq">
+            <value>10.0</value>
+          </Data>
+          <Data name="location_street">
+            <value>20 Glebe Rd E</value>
+          </Data>
+          <Data name="location_city">
+            <value>Toronto</value>
+          </Data>
+          <Data name="location_province">
+            <value>ON</value>
+          </Data>
+          <Data name="location_country">
+            <value>Canada</value>
+          </Data>
+          <Data name="location_postal_code">
+            <value>M4S 1N6</value>
+          </Data>
+          <Data name="pastoral_charge_ms_num">
+            <value>5150210.0</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Glen Rhodes Pastoral Charge</name>
+        <address>1470 Gerrard St E Toronto ON Canada M4L 2A3</address>
+        <description><![CDATA[pastoral_charge_id: 1941<br>conference_name: Toronto Conference<br>presbytery_name: Toronto Southeast Presbytery<br>region_seq: 10<br>location_street: 1470 Gerrard St E<br>location_city: Toronto<br>location_province: ON<br>location_country: Canada<br>location_postal_code: M4L 2A3<br>pastoral_charge_ms_num: 5150230]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="pastoral_charge_id">
+            <value>1941.0</value>
+          </Data>
+          <Data name="conference_name">
+            <value>Toronto Conference</value>
+          </Data>
+          <Data name="presbytery_name">
+            <value>Toronto Southeast Presbytery</value>
+          </Data>
+          <Data name="region_seq">
+            <value>10.0</value>
+          </Data>
+          <Data name="location_street">
+            <value>1470 Gerrard St E</value>
+          </Data>
+          <Data name="location_city">
+            <value>Toronto</value>
+          </Data>
+          <Data name="location_province">
+            <value>ON</value>
+          </Data>
+          <Data name="location_country">
+            <value>Canada</value>
+          </Data>
+          <Data name="location_postal_code">
+            <value>M4L 2A3</value>
+          </Data>
+          <Data name="pastoral_charge_ms_num">
+            <value>5150230.0</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Hope Pastoral Charge</name>
+        <address>2550 Danforth Ave Toronto ON Canada M4C 1L2</address>
+        <description><![CDATA[pastoral_charge_id: 1943<br>conference_name: Toronto Conference<br>presbytery_name: Toronto Southeast Presbytery<br>region_seq: 10<br>location_street: 2550 Danforth Ave<br>location_city: Toronto<br>location_province: ON<br>location_country: Canada<br>location_postal_code: M4C 1L2<br>pastoral_charge_ms_num: 5150240]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="pastoral_charge_id">
+            <value>1943.0</value>
+          </Data>
+          <Data name="conference_name">
+            <value>Toronto Conference</value>
+          </Data>
+          <Data name="presbytery_name">
+            <value>Toronto Southeast Presbytery</value>
+          </Data>
+          <Data name="region_seq">
+            <value>10.0</value>
+          </Data>
+          <Data name="location_street">
+            <value>2550 Danforth Ave</value>
+          </Data>
+          <Data name="location_city">
+            <value>Toronto</value>
+          </Data>
+          <Data name="location_province">
+            <value>ON</value>
+          </Data>
+          <Data name="location_country">
+            <value>Canada</value>
+          </Data>
+          <Data name="location_postal_code">
+            <value>M4C 1L2</value>
+          </Data>
+          <Data name="pastoral_charge_ms_num">
+            <value>5150240.0</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Humber Valley Pastoral Charge</name>
+        <address>76 Anglesey Blvd Etobicoke ON Canada M9A 3C1</address>
+        <description><![CDATA[pastoral_charge_id: 2017<br>conference_name: Toronto Conference<br>presbytery_name: South West Presbytery<br>region_seq: 10<br>location_street: 76 Anglesey Blvd<br>location_city: Etobicoke<br>location_province: ON<br>location_country: Canada<br>location_postal_code: M9A 3C1<br>pastoral_charge_ms_num: 5140290]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="pastoral_charge_id">
+            <value>2017.0</value>
+          </Data>
+          <Data name="conference_name">
+            <value>Toronto Conference</value>
+          </Data>
+          <Data name="presbytery_name">
+            <value>South West Presbytery</value>
+          </Data>
+          <Data name="region_seq">
+            <value>10.0</value>
+          </Data>
+          <Data name="location_street">
+            <value>76 Anglesey Blvd</value>
+          </Data>
+          <Data name="location_city">
+            <value>Etobicoke</value>
+          </Data>
+          <Data name="location_province">
+            <value>ON</value>
+          </Data>
+          <Data name="location_country">
+            <value>Canada</value>
+          </Data>
+          <Data name="location_postal_code">
+            <value>M9A 3C1</value>
+          </Data>
+          <Data name="pastoral_charge_ms_num">
+            <value>5140290.0</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Humbercrest Pastoral Charge</name>
+        <address>16 Baby Point Rd Toronto ON Canada M6S 2E9</address>
+        <description><![CDATA[pastoral_charge_id: 2013<br>conference_name: Toronto Conference<br>presbytery_name: South West Presbytery<br>region_seq: 10<br>location_street: 16 Baby Point Rd<br>location_city: Toronto<br>location_province: ON<br>location_country: Canada<br>location_postal_code: M6S 2E9<br>pastoral_charge_ms_num: 5140300]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="pastoral_charge_id">
+            <value>2013.0</value>
+          </Data>
+          <Data name="conference_name">
+            <value>Toronto Conference</value>
+          </Data>
+          <Data name="presbytery_name">
+            <value>South West Presbytery</value>
+          </Data>
+          <Data name="region_seq">
+            <value>10.0</value>
+          </Data>
+          <Data name="location_street">
+            <value>16 Baby Point Rd</value>
+          </Data>
+          <Data name="location_city">
+            <value>Toronto</value>
+          </Data>
+          <Data name="location_province">
+            <value>ON</value>
+          </Data>
+          <Data name="location_country">
+            <value>Canada</value>
+          </Data>
+          <Data name="location_postal_code">
+            <value>M6S 2E9</value>
+          </Data>
+          <Data name="pastoral_charge_ms_num">
+            <value>5140300.0</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Humbervale Pastoral Charge</name>
+        <address>1447 Royal York Rd Etobicoke ON Canada M9P 3B2</address>
+        <description><![CDATA[pastoral_charge_id: 2015<br>conference_name: Toronto Conference<br>presbytery_name: South West Presbytery<br>region_seq: 10<br>location_street: 1447 Royal York Rd<br>location_city: Etobicoke<br>location_province: ON<br>location_country: Canada<br>location_postal_code: M9P 3B2<br>pastoral_charge_ms_num: 5140310]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="pastoral_charge_id">
+            <value>2015.0</value>
+          </Data>
+          <Data name="conference_name">
+            <value>Toronto Conference</value>
+          </Data>
+          <Data name="presbytery_name">
+            <value>South West Presbytery</value>
+          </Data>
+          <Data name="region_seq">
+            <value>10.0</value>
+          </Data>
+          <Data name="location_street">
+            <value>1447 Royal York Rd</value>
+          </Data>
+          <Data name="location_city">
+            <value>Etobicoke</value>
+          </Data>
+          <Data name="location_province">
+            <value>ON</value>
+          </Data>
+          <Data name="location_country">
+            <value>Canada</value>
+          </Data>
+          <Data name="location_postal_code">
+            <value>M9P 3B2</value>
+          </Data>
+          <Data name="pastoral_charge_ms_num">
+            <value>5140310.0</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Hungarian (EM) Pastoral Charge</name>
+        <address>73 Mackay Ave Toronto ON Canada M6H 2N7</address>
+        <description><![CDATA[pastoral_charge_id: 1945<br>conference_name: Toronto Conference<br>presbytery_name: South West Presbytery<br>region_seq: 10<br>location_street: 73 Mackay Ave<br>location_city: Toronto<br>location_province: ON<br>location_country: Canada<br>location_postal_code: M6H 2N7<br>pastoral_charge_ms_num: 5140320]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="pastoral_charge_id">
+            <value>1945.0</value>
+          </Data>
+          <Data name="conference_name">
+            <value>Toronto Conference</value>
+          </Data>
+          <Data name="presbytery_name">
+            <value>South West Presbytery</value>
+          </Data>
+          <Data name="region_seq">
+            <value>10.0</value>
+          </Data>
+          <Data name="location_street">
+            <value>73 Mackay Ave</value>
+          </Data>
+          <Data name="location_city">
+            <value>Toronto</value>
+          </Data>
+          <Data name="location_province">
+            <value>ON</value>
+          </Data>
+          <Data name="location_country">
+            <value>Canada</value>
+          </Data>
+          <Data name="location_postal_code">
+            <value>M6H 2N7</value>
+          </Data>
+          <Data name="pastoral_charge_ms_num">
+            <value>5140320.0</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Islington Pastoral Charge</name>
+        <address>25 Burnhamthorpe Rd Etobicoke ON Canada M9A 1G9</address>
+        <description><![CDATA[pastoral_charge_id: 2019<br>conference_name: Toronto Conference<br>presbytery_name: South West Presbytery<br>region_seq: 10<br>location_street: 25 Burnhamthorpe Rd<br>location_city: Etobicoke<br>location_province: ON<br>location_country: Canada<br>location_postal_code: M9A 1G9<br>pastoral_charge_ms_num: 5140340]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="pastoral_charge_id">
+            <value>2019.0</value>
+          </Data>
+          <Data name="conference_name">
+            <value>Toronto Conference</value>
+          </Data>
+          <Data name="presbytery_name">
+            <value>South West Presbytery</value>
+          </Data>
+          <Data name="region_seq">
+            <value>10.0</value>
+          </Data>
+          <Data name="location_street">
+            <value>25 Burnhamthorpe Rd</value>
+          </Data>
+          <Data name="location_city">
+            <value>Etobicoke</value>
+          </Data>
+          <Data name="location_province">
+            <value>ON</value>
+          </Data>
+          <Data name="location_country">
+            <value>Canada</value>
+          </Data>
+          <Data name="location_postal_code">
+            <value>M9A 1G9</value>
+          </Data>
+          <Data name="pastoral_charge_ms_num">
+            <value>5140340.0</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Jubilee Pastoral Charge</name>
+        <address>40 Underhill Dr Toronto ON Canada M3A 2J5</address>
+        <description><![CDATA[pastoral_charge_id: 1406551<br>conference_name: Toronto Conference<br>presbytery_name: Toronto Southeast Presbytery<br>region_seq: 10<br>location_street: 40 Underhill Dr<br>location_city: Toronto<br>location_province: ON<br>location_country: Canada<br>location_postal_code: M3A 2J5<br>pastoral_charge_ms_num: 5150260]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="pastoral_charge_id">
+            <value>1406551.0</value>
+          </Data>
+          <Data name="conference_name">
+            <value>Toronto Conference</value>
+          </Data>
+          <Data name="presbytery_name">
+            <value>Toronto Southeast Presbytery</value>
+          </Data>
+          <Data name="region_seq">
+            <value>10.0</value>
+          </Data>
+          <Data name="location_street">
+            <value>40 Underhill Dr</value>
+          </Data>
+          <Data name="location_city">
+            <value>Toronto</value>
+          </Data>
+          <Data name="location_province">
+            <value>ON</value>
+          </Data>
+          <Data name="location_country">
+            <value>Canada</value>
+          </Data>
+          <Data name="location_postal_code">
+            <value>M3A 2J5</value>
+          </Data>
+          <Data name="pastoral_charge_ms_num">
+            <value>5150260.0</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Kimbourne Park Pastoral Charge</name>
+        <address>200 Wolverleigh Blvd Toronto ON Canada M4C 1S2</address>
+        <description><![CDATA[pastoral_charge_id: 1949<br>conference_name: Toronto Conference<br>presbytery_name: Toronto Southeast Presbytery<br>region_seq: 10<br>location_street: 200 Wolverleigh Blvd<br>location_city: Toronto<br>location_province: ON<br>location_country: Canada<br>location_postal_code: M4C 1S2<br>pastoral_charge_ms_num: 5150270]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="pastoral_charge_id">
+            <value>1949.0</value>
+          </Data>
+          <Data name="conference_name">
+            <value>Toronto Conference</value>
+          </Data>
+          <Data name="presbytery_name">
+            <value>Toronto Southeast Presbytery</value>
+          </Data>
+          <Data name="region_seq">
+            <value>10.0</value>
+          </Data>
+          <Data name="location_street">
+            <value>200 Wolverleigh Blvd</value>
+          </Data>
+          <Data name="location_city">
+            <value>Toronto</value>
+          </Data>
+          <Data name="location_province">
+            <value>ON</value>
+          </Data>
+          <Data name="location_country">
+            <value>Canada</value>
+          </Data>
+          <Data name="location_postal_code">
+            <value>M4C 1S2</value>
+          </Data>
+          <Data name="pastoral_charge_ms_num">
+            <value>5150270.0</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Kingston Road Pastoral Charge</name>
+        <address>975 Kingston Rd Toronto ON Canada M4E 1T1</address>
+        <description><![CDATA[pastoral_charge_id: 1951<br>conference_name: Toronto Conference<br>presbytery_name: Toronto Southeast Presbytery<br>region_seq: 10<br>location_street: 975 Kingston Rd<br>location_city: Toronto<br>location_province: ON<br>location_country: Canada<br>location_postal_code: M4E 1T1<br>pastoral_charge_ms_num: 5150280]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="pastoral_charge_id">
+            <value>1951.0</value>
+          </Data>
+          <Data name="conference_name">
+            <value>Toronto Conference</value>
+          </Data>
+          <Data name="presbytery_name">
+            <value>Toronto Southeast Presbytery</value>
+          </Data>
+          <Data name="region_seq">
+            <value>10.0</value>
+          </Data>
+          <Data name="location_street">
+            <value>975 Kingston Rd</value>
+          </Data>
+          <Data name="location_city">
+            <value>Toronto</value>
+          </Data>
+          <Data name="location_province">
+            <value>ON</value>
+          </Data>
+          <Data name="location_country">
+            <value>Canada</value>
+          </Data>
+          <Data name="location_postal_code">
+            <value>M4E 1T1</value>
+          </Data>
+          <Data name="pastoral_charge_ms_num">
+            <value>5150280.0</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Kingsway-Lambton Pastoral Charge</name>
+        <address>85 The Kingsway Toronto ON Canada M8X 2T6</address>
+        <description><![CDATA[pastoral_charge_id: 2025<br>conference_name: Toronto Conference<br>presbytery_name: South West Presbytery<br>region_seq: 10<br>location_street: 85 The Kingsway<br>location_city: Toronto<br>location_province: ON<br>location_country: Canada<br>location_postal_code: M8X 2T6<br>pastoral_charge_ms_num: 5140350]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="pastoral_charge_id">
+            <value>2025.0</value>
+          </Data>
+          <Data name="conference_name">
+            <value>Toronto Conference</value>
+          </Data>
+          <Data name="presbytery_name">
+            <value>South West Presbytery</value>
+          </Data>
+          <Data name="region_seq">
+            <value>10.0</value>
+          </Data>
+          <Data name="location_street">
+            <value>85 The Kingsway</value>
+          </Data>
+          <Data name="location_city">
+            <value>Toronto</value>
+          </Data>
+          <Data name="location_province">
+            <value>ON</value>
+          </Data>
+          <Data name="location_country">
+            <value>Canada</value>
+          </Data>
+          <Data name="location_postal_code">
+            <value>M8X 2T6</value>
+          </Data>
+          <Data name="pastoral_charge_ms_num">
+            <value>5140350.0</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Knob Hill Pastoral Charge</name>
+        <address>23 Gage Ave Scarborough ON Canada M1J 1T3</address>
+        <description><![CDATA[pastoral_charge_id: 1883<br>conference_name: Toronto Conference<br>presbytery_name: Toronto Southeast Presbytery<br>region_seq: 10<br>location_street: 23 Gage Ave<br>location_city: Scarborough<br>location_province: ON<br>location_country: Canada<br>location_postal_code: M1J 1T3<br>pastoral_charge_ms_num: 5150290]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="pastoral_charge_id">
+            <value>1883.0</value>
+          </Data>
+          <Data name="conference_name">
+            <value>Toronto Conference</value>
+          </Data>
+          <Data name="presbytery_name">
+            <value>Toronto Southeast Presbytery</value>
+          </Data>
+          <Data name="region_seq">
+            <value>10.0</value>
+          </Data>
+          <Data name="location_street">
+            <value>23 Gage Ave</value>
+          </Data>
+          <Data name="location_city">
+            <value>Scarborough</value>
+          </Data>
+          <Data name="location_province">
+            <value>ON</value>
+          </Data>
+          <Data name="location_country">
+            <value>Canada</value>
+          </Data>
+          <Data name="location_postal_code">
+            <value>M1J 1T3</value>
+          </Data>
+          <Data name="pastoral_charge_ms_num">
+            <value>5150290.0</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Knox, Agincourt Pastoral Charge</name>
+        <address>2569 Midland Ave Toronto ON Canada M1S 1R3</address>
+        <description><![CDATA[pastoral_charge_id: 1885<br>conference_name: Toronto Conference<br>presbytery_name: Toronto Southeast Presbytery<br>region_seq: 10<br>location_street: 2569 Midland Ave<br>location_city: Toronto<br>location_province: ON<br>location_country: Canada<br>location_postal_code: M1S 1R3<br>pastoral_charge_ms_num: 5150300]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="pastoral_charge_id">
+            <value>1885.0</value>
+          </Data>
+          <Data name="conference_name">
+            <value>Toronto Conference</value>
+          </Data>
+          <Data name="presbytery_name">
+            <value>Toronto Southeast Presbytery</value>
+          </Data>
+          <Data name="region_seq">
+            <value>10.0</value>
+          </Data>
+          <Data name="location_street">
+            <value>2569 Midland Ave</value>
+          </Data>
+          <Data name="location_city">
+            <value>Toronto</value>
+          </Data>
+          <Data name="location_province">
+            <value>ON</value>
+          </Data>
+          <Data name="location_country">
+            <value>Canada</value>
+          </Data>
+          <Data name="location_postal_code">
+            <value>M1S 1R3</value>
+          </Data>
+          <Data name="pastoral_charge_ms_num">
+            <value>5150300.0</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Lansing Pastoral Charge</name>
+        <address>49 Bogert Ave Willowdale ON Canada M2N 1K4</address>
+        <description><![CDATA[pastoral_charge_id: 1839<br>conference_name: Toronto Conference<br>presbytery_name: South West Presbytery<br>region_seq: 10<br>location_street: 49 Bogert Ave<br>location_city: Willowdale<br>location_province: ON<br>location_country: Canada<br>location_postal_code: M2N 1K4<br>pastoral_charge_ms_num: 5140360]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="pastoral_charge_id">
+            <value>1839.0</value>
+          </Data>
+          <Data name="conference_name">
+            <value>Toronto Conference</value>
+          </Data>
+          <Data name="presbytery_name">
+            <value>South West Presbytery</value>
+          </Data>
+          <Data name="region_seq">
+            <value>10.0</value>
+          </Data>
+          <Data name="location_street">
+            <value>49 Bogert Ave</value>
+          </Data>
+          <Data name="location_city">
+            <value>Willowdale</value>
+          </Data>
+          <Data name="location_province">
+            <value>ON</value>
+          </Data>
+          <Data name="location_country">
+            <value>Canada</value>
+          </Data>
+          <Data name="location_postal_code">
+            <value>M2N 1K4</value>
+          </Data>
+          <Data name="pastoral_charge_ms_num">
+            <value>5140360.0</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Lawrence Park Community Pastoral Charge</name>
+        <address>2180 Bayview Ave Toronto ON Canada M4N 3K7</address>
+        <description><![CDATA[pastoral_charge_id: 1841<br>conference_name: Toronto Conference<br>presbytery_name: Toronto Southeast Presbytery<br>region_seq: 10<br>location_street: 2180 Bayview Ave<br>location_city: Toronto<br>location_province: ON<br>location_country: Canada<br>location_postal_code: M4N 3K7<br>pastoral_charge_ms_num: 5150310]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="pastoral_charge_id">
+            <value>1841.0</value>
+          </Data>
+          <Data name="conference_name">
+            <value>Toronto Conference</value>
+          </Data>
+          <Data name="presbytery_name">
+            <value>Toronto Southeast Presbytery</value>
+          </Data>
+          <Data name="region_seq">
+            <value>10.0</value>
+          </Data>
+          <Data name="location_street">
+            <value>2180 Bayview Ave</value>
+          </Data>
+          <Data name="location_city">
+            <value>Toronto</value>
+          </Data>
+          <Data name="location_province">
+            <value>ON</value>
+          </Data>
+          <Data name="location_country">
+            <value>Canada</value>
+          </Data>
+          <Data name="location_postal_code">
+            <value>M4N 3K7</value>
+          </Data>
+          <Data name="pastoral_charge_ms_num">
+            <value>5150310.0</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Leaside Pastoral Charge</name>
+        <address>822 Millwood Rd Toronto ON Canada M4G 1W4</address>
+        <description><![CDATA[pastoral_charge_id: 1843<br>conference_name: Toronto Conference<br>presbytery_name: Toronto Southeast Presbytery<br>region_seq: 10<br>location_street: 822 Millwood Rd<br>location_city: Toronto<br>location_province: ON<br>location_country: Canada<br>location_postal_code: M4G 1W4<br>pastoral_charge_ms_num: 5150320]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="pastoral_charge_id">
+            <value>1843.0</value>
+          </Data>
+          <Data name="conference_name">
+            <value>Toronto Conference</value>
+          </Data>
+          <Data name="presbytery_name">
+            <value>Toronto Southeast Presbytery</value>
+          </Data>
+          <Data name="region_seq">
+            <value>10.0</value>
+          </Data>
+          <Data name="location_street">
+            <value>822 Millwood Rd</value>
+          </Data>
+          <Data name="location_city">
+            <value>Toronto</value>
+          </Data>
+          <Data name="location_province">
+            <value>ON</value>
+          </Data>
+          <Data name="location_country">
+            <value>Canada</value>
+          </Data>
+          <Data name="location_postal_code">
+            <value>M4G 1W4</value>
+          </Data>
+          <Data name="pastoral_charge_ms_num">
+            <value>5150320.0</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Malvern-Emmanuel Pastoral Charge</name>
+        <address>25 Sewells Rd Scarborough ON Canada M1B 3H2</address>
+        <description><![CDATA[pastoral_charge_id: 1887<br>conference_name: Toronto Conference<br>presbytery_name: Toronto Southeast Presbytery<br>region_seq: 10<br>location_street: 25 Sewells Rd<br>location_city: Scarborough<br>location_province: ON<br>location_country: Canada<br>location_postal_code: M1B 3H2<br>pastoral_charge_ms_num: 5150330]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="pastoral_charge_id">
+            <value>1887.0</value>
+          </Data>
+          <Data name="conference_name">
+            <value>Toronto Conference</value>
+          </Data>
+          <Data name="presbytery_name">
+            <value>Toronto Southeast Presbytery</value>
+          </Data>
+          <Data name="region_seq">
+            <value>10.0</value>
+          </Data>
+          <Data name="location_street">
+            <value>25 Sewells Rd</value>
+          </Data>
+          <Data name="location_city">
+            <value>Scarborough</value>
+          </Data>
+          <Data name="location_province">
+            <value>ON</value>
+          </Data>
+          <Data name="location_country">
+            <value>Canada</value>
+          </Data>
+          <Data name="location_postal_code">
+            <value>M1B 3H2</value>
+          </Data>
+          <Data name="pastoral_charge_ms_num">
+            <value>5150330.0</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Manor Road Pastoral Charge</name>
+        <address>240 Manor Rd E Toronto ON Canada M4S 1R8</address>
+        <description><![CDATA[pastoral_charge_id: 1955<br>conference_name: Toronto Conference<br>presbytery_name: Toronto Southeast Presbytery<br>region_seq: 10<br>location_street: 240 Manor Rd E<br>location_city: Toronto<br>location_province: ON<br>location_country: Canada<br>location_postal_code: M4S 1R8<br>pastoral_charge_ms_num: 5150340]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="pastoral_charge_id">
+            <value>1955.0</value>
+          </Data>
+          <Data name="conference_name">
+            <value>Toronto Conference</value>
+          </Data>
+          <Data name="presbytery_name">
+            <value>Toronto Southeast Presbytery</value>
+          </Data>
+          <Data name="region_seq">
+            <value>10.0</value>
+          </Data>
+          <Data name="location_street">
+            <value>240 Manor Rd E</value>
+          </Data>
+          <Data name="location_city">
+            <value>Toronto</value>
+          </Data>
+          <Data name="location_province">
+            <value>ON</value>
+          </Data>
+          <Data name="location_country">
+            <value>Canada</value>
+          </Data>
+          <Data name="location_postal_code">
+            <value>M4S 1R8</value>
+          </Data>
+          <Data name="pastoral_charge_ms_num">
+            <value>5150340.0</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Martin Grove Pastoral Charge</name>
+        <address>75 Pergola Rd Etobicoke ON Canada M9W 5K4</address>
+        <description><![CDATA[pastoral_charge_id: 1079280<br>conference_name: Toronto Conference<br>presbytery_name: South West Presbytery<br>region_seq: 10<br>location_street: 75 Pergola Rd<br>location_city: Etobicoke<br>location_province: ON<br>location_country: Canada<br>location_postal_code: M9W 5K4<br>pastoral_charge_ms_num: 5140370]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="pastoral_charge_id">
+            <value>1079280.0</value>
+          </Data>
+          <Data name="conference_name">
+            <value>Toronto Conference</value>
+          </Data>
+          <Data name="presbytery_name">
+            <value>South West Presbytery</value>
+          </Data>
+          <Data name="region_seq">
+            <value>10.0</value>
+          </Data>
+          <Data name="location_street">
+            <value>75 Pergola Rd</value>
+          </Data>
+          <Data name="location_city">
+            <value>Etobicoke</value>
+          </Data>
+          <Data name="location_province">
+            <value>ON</value>
+          </Data>
+          <Data name="location_country">
+            <value>Canada</value>
+          </Data>
+          <Data name="location_postal_code">
+            <value>M9W 5K4</value>
+          </Data>
+          <Data name="pastoral_charge_ms_num">
+            <value>5140370.0</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Metropolitan Pastoral Charge</name>
+        <address>56 Queen St E Toronto ON Canada M5C 2Z3</address>
+        <description><![CDATA[pastoral_charge_id: 1957<br>conference_name: Toronto Conference<br>presbytery_name: Toronto Southeast Presbytery<br>region_seq: 10<br>location_street: 56 Queen St E<br>location_city: Toronto<br>location_province: ON<br>location_country: Canada<br>location_postal_code: M5C 2Z3<br>pastoral_charge_ms_num: 5150350]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="pastoral_charge_id">
+            <value>1957.0</value>
+          </Data>
+          <Data name="conference_name">
+            <value>Toronto Conference</value>
+          </Data>
+          <Data name="presbytery_name">
+            <value>Toronto Southeast Presbytery</value>
+          </Data>
+          <Data name="region_seq">
+            <value>10.0</value>
+          </Data>
+          <Data name="location_street">
+            <value>56 Queen St E</value>
+          </Data>
+          <Data name="location_city">
+            <value>Toronto</value>
+          </Data>
+          <Data name="location_province">
+            <value>ON</value>
+          </Data>
+          <Data name="location_country">
+            <value>Canada</value>
+          </Data>
+          <Data name="location_postal_code">
+            <value>M5C 2Z3</value>
+          </Data>
+          <Data name="pastoral_charge_ms_num">
+            <value>5150350.0</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>North Runnymede Pastoral Charge</name>
+        <address>33 Pritchard Ave Toronto ON Canada M6N 1T4</address>
+        <description><![CDATA[pastoral_charge_id: 2029<br>conference_name: Toronto Conference<br>presbytery_name: South West Presbytery<br>region_seq: 10<br>location_street: 33 Pritchard Ave<br>location_city: Toronto<br>location_province: ON<br>location_country: Canada<br>location_postal_code: M6N 1T4<br>pastoral_charge_ms_num: 5140400]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="pastoral_charge_id">
+            <value>2029.0</value>
+          </Data>
+          <Data name="conference_name">
+            <value>Toronto Conference</value>
+          </Data>
+          <Data name="presbytery_name">
+            <value>South West Presbytery</value>
+          </Data>
+          <Data name="region_seq">
+            <value>10.0</value>
+          </Data>
+          <Data name="location_street">
+            <value>33 Pritchard Ave</value>
+          </Data>
+          <Data name="location_city">
+            <value>Toronto</value>
+          </Data>
+          <Data name="location_province">
+            <value>ON</value>
+          </Data>
+          <Data name="location_country">
+            <value>Canada</value>
+          </Data>
+          <Data name="location_postal_code">
+            <value>M6N 1T4</value>
+          </Data>
+          <Data name="pastoral_charge_ms_num">
+            <value>5140400.0</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>North York Korean (EM) Pastoral Charge</name>
+        <address>255 Finch Ave W Toronto ON Canada M2R 1M8</address>
+        <description><![CDATA[pastoral_charge_id: 1972332<br>conference_name: Toronto Conference<br>presbytery_name: South West Presbytery<br>region_seq: 10<br>location_street: 255 Finch Ave W<br>location_city: Toronto<br>location_province: ON<br>location_country: Canada<br>location_postal_code: M2R 1M8<br>pastoral_charge_ms_num: 5140720]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="pastoral_charge_id">
+            <value>1972332.0</value>
+          </Data>
+          <Data name="conference_name">
+            <value>Toronto Conference</value>
+          </Data>
+          <Data name="presbytery_name">
+            <value>South West Presbytery</value>
+          </Data>
+          <Data name="region_seq">
+            <value>10.0</value>
+          </Data>
+          <Data name="location_street">
+            <value>255 Finch Ave W</value>
+          </Data>
+          <Data name="location_city">
+            <value>Toronto</value>
+          </Data>
+          <Data name="location_province">
+            <value>ON</value>
+          </Data>
+          <Data name="location_country">
+            <value>Canada</value>
+          </Data>
+          <Data name="location_postal_code">
+            <value>M2R 1M8</value>
+          </Data>
+          <Data name="pastoral_charge_ms_num">
+            <value>5140720.0</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Northlea Pastoral Charge</name>
+        <address>125 Brentcliffe Rd Toronto ON Canada M4G 3Y7</address>
+        <description><![CDATA[pastoral_charge_id: 1847<br>conference_name: Toronto Conference<br>presbytery_name: Toronto Southeast Presbytery<br>region_seq: 10<br>location_street: 125 Brentcliffe Rd<br>location_city: Toronto<br>location_province: ON<br>location_country: Canada<br>location_postal_code: M4G 3Y7<br>pastoral_charge_ms_num: 5150360]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="pastoral_charge_id">
+            <value>1847.0</value>
+          </Data>
+          <Data name="conference_name">
+            <value>Toronto Conference</value>
+          </Data>
+          <Data name="presbytery_name">
+            <value>Toronto Southeast Presbytery</value>
+          </Data>
+          <Data name="region_seq">
+            <value>10.0</value>
+          </Data>
+          <Data name="location_street">
+            <value>125 Brentcliffe Rd</value>
+          </Data>
+          <Data name="location_city">
+            <value>Toronto</value>
+          </Data>
+          <Data name="location_province">
+            <value>ON</value>
+          </Data>
+          <Data name="location_country">
+            <value>Canada</value>
+          </Data>
+          <Data name="location_postal_code">
+            <value>M4G 3Y7</value>
+          </Data>
+          <Data name="pastoral_charge_ms_num">
+            <value>5150360.0</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Onnuri Korean (EM) Pastoral Charge</name>
+        <address>63 Dunblaine Ave North York ON Canada M5M 2S2</address>
+        <description><![CDATA[pastoral_charge_id: 1851<br>conference_name: Toronto Conference<br>presbytery_name: South West Presbytery<br>region_seq: 10<br>location_street: 63 Dunblaine Ave<br>location_city: North York<br>location_province: ON<br>location_country: Canada<br>location_postal_code: M5M 2S2<br>pastoral_charge_ms_num: 5140420]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="pastoral_charge_id">
+            <value>1851.0</value>
+          </Data>
+          <Data name="conference_name">
+            <value>Toronto Conference</value>
+          </Data>
+          <Data name="presbytery_name">
+            <value>South West Presbytery</value>
+          </Data>
+          <Data name="region_seq">
+            <value>10.0</value>
+          </Data>
+          <Data name="location_street">
+            <value>63 Dunblaine Ave</value>
+          </Data>
+          <Data name="location_city">
+            <value>North York</value>
+          </Data>
+          <Data name="location_province">
+            <value>ON</value>
+          </Data>
+          <Data name="location_country">
+            <value>Canada</value>
+          </Data>
+          <Data name="location_postal_code">
+            <value>M5M 2S2</value>
+          </Data>
+          <Data name="pastoral_charge_ms_num">
+            <value>5140420.0</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Parkdale Pastoral Charge</name>
+        <address>171 Dunn Ave Toronto ON Canada M6K 2R8</address>
+        <description><![CDATA[pastoral_charge_id: 2031<br>conference_name: Toronto Conference<br>presbytery_name: South West Presbytery<br>region_seq: 10<br>location_street: 171 Dunn Ave<br>location_city: Toronto<br>location_province: ON<br>location_country: Canada<br>location_postal_code: M6K 2R8<br>pastoral_charge_ms_num: 5140430]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="pastoral_charge_id">
+            <value>2031.0</value>
+          </Data>
+          <Data name="conference_name">
+            <value>Toronto Conference</value>
+          </Data>
+          <Data name="presbytery_name">
+            <value>South West Presbytery</value>
+          </Data>
+          <Data name="region_seq">
+            <value>10.0</value>
+          </Data>
+          <Data name="location_street">
+            <value>171 Dunn Ave</value>
+          </Data>
+          <Data name="location_city">
+            <value>Toronto</value>
+          </Data>
+          <Data name="location_province">
+            <value>ON</value>
+          </Data>
+          <Data name="location_country">
+            <value>Canada</value>
+          </Data>
+          <Data name="location_postal_code">
+            <value>M6K 2R8</value>
+          </Data>
+          <Data name="pastoral_charge_ms_num">
+            <value>5140430.0</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Parkwoods Pastoral Charge</name>
+        <address>85 Parkwoods Village Dr Don Mills ON Canada M3A 2X9</address>
+        <description><![CDATA[pastoral_charge_id: 1855<br>conference_name: Toronto Conference<br>presbytery_name: Toronto Southeast Presbytery<br>region_seq: 10<br>location_street: 85 Parkwoods Village Dr<br>location_city: Don Mills<br>location_province: ON<br>location_country: Canada<br>location_postal_code: M3A 2X9<br>pastoral_charge_ms_num: 5150380]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="pastoral_charge_id">
+            <value>1855.0</value>
+          </Data>
+          <Data name="conference_name">
+            <value>Toronto Conference</value>
+          </Data>
+          <Data name="presbytery_name">
+            <value>Toronto Southeast Presbytery</value>
+          </Data>
+          <Data name="region_seq">
+            <value>10.0</value>
+          </Data>
+          <Data name="location_street">
+            <value>85 Parkwoods Village Dr</value>
+          </Data>
+          <Data name="location_city">
+            <value>Don Mills</value>
+          </Data>
+          <Data name="location_province">
+            <value>ON</value>
+          </Data>
+          <Data name="location_country">
+            <value>Canada</value>
+          </Data>
+          <Data name="location_postal_code">
+            <value>M3A 2X9</value>
+          </Data>
+          <Data name="pastoral_charge_ms_num">
+            <value>5150380.0</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Richview Pastoral Charge</name>
+        <address>149 Wellesworth Dr Toronto ON Canada M9C 4R8</address>
+        <description><![CDATA[pastoral_charge_id: 2035<br>conference_name: Toronto Conference<br>presbytery_name: South West Presbytery<br>region_seq: 10<br>location_street: 149 Wellesworth Dr<br>location_city: Toronto<br>location_province: ON<br>location_country: Canada<br>location_postal_code: M9C 4R8<br>pastoral_charge_ms_num: 5140440]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="pastoral_charge_id">
+            <value>2035.0</value>
+          </Data>
+          <Data name="conference_name">
+            <value>Toronto Conference</value>
+          </Data>
+          <Data name="presbytery_name">
+            <value>South West Presbytery</value>
+          </Data>
+          <Data name="region_seq">
+            <value>10.0</value>
+          </Data>
+          <Data name="location_street">
+            <value>149 Wellesworth Dr</value>
+          </Data>
+          <Data name="location_city">
+            <value>Toronto</value>
+          </Data>
+          <Data name="location_province">
+            <value>ON</value>
+          </Data>
+          <Data name="location_country">
+            <value>Canada</value>
+          </Data>
+          <Data name="location_postal_code">
+            <value>M9C 4R8</value>
+          </Data>
+          <Data name="pastoral_charge_ms_num">
+            <value>5140440.0</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Roncesvalles Pastoral Charge</name>
+        <address>214 Wright Ave Toronto ON Canada M6R 1L3</address>
+        <description><![CDATA[pastoral_charge_id: 1972314<br>conference_name: Toronto Conference<br>presbytery_name: South West Presbytery<br>region_seq: 10<br>location_street: 214 Wright Ave<br>location_city: Toronto<br>location_province: ON<br>location_country: Canada<br>location_postal_code: M6R 1L3<br>pastoral_charge_ms_num: 5140700]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="pastoral_charge_id">
+            <value>1972314.0</value>
+          </Data>
+          <Data name="conference_name">
+            <value>Toronto Conference</value>
+          </Data>
+          <Data name="presbytery_name">
+            <value>South West Presbytery</value>
+          </Data>
+          <Data name="region_seq">
+            <value>10.0</value>
+          </Data>
+          <Data name="location_street">
+            <value>214 Wright Ave</value>
+          </Data>
+          <Data name="location_city">
+            <value>Toronto</value>
+          </Data>
+          <Data name="location_province">
+            <value>ON</value>
+          </Data>
+          <Data name="location_country">
+            <value>Canada</value>
+          </Data>
+          <Data name="location_postal_code">
+            <value>M6R 1L3</value>
+          </Data>
+          <Data name="pastoral_charge_ms_num">
+            <value>5140700.0</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Rosedale Pastoral Charge</name>
+        <address>159 Roxborough Dr Toronto ON Canada M4W 1X7</address>
+        <description><![CDATA[pastoral_charge_id: 1963<br>conference_name: Toronto Conference<br>presbytery_name: Toronto Southeast Presbytery<br>region_seq: 10<br>location_street: 159 Roxborough Dr<br>location_city: Toronto<br>location_province: ON<br>location_country: Canada<br>location_postal_code: M4W 1X7<br>pastoral_charge_ms_num: 5150420]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="pastoral_charge_id">
+            <value>1963.0</value>
+          </Data>
+          <Data name="conference_name">
+            <value>Toronto Conference</value>
+          </Data>
+          <Data name="presbytery_name">
+            <value>Toronto Southeast Presbytery</value>
+          </Data>
+          <Data name="region_seq">
+            <value>10.0</value>
+          </Data>
+          <Data name="location_street">
+            <value>159 Roxborough Dr</value>
+          </Data>
+          <Data name="location_city">
+            <value>Toronto</value>
+          </Data>
+          <Data name="location_province">
+            <value>ON</value>
+          </Data>
+          <Data name="location_country">
+            <value>Canada</value>
+          </Data>
+          <Data name="location_postal_code">
+            <value>M4W 1X7</value>
+          </Data>
+          <Data name="pastoral_charge_ms_num">
+            <value>5150420.0</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Royal York Road Pastoral Charge</name>
+        <address>851 Royal York Rd Etobicoke ON Canada M8Y 2V3</address>
+        <description><![CDATA[pastoral_charge_id: 2039<br>conference_name: Toronto Conference<br>presbytery_name: South West Presbytery<br>region_seq: 10<br>location_street: 851 Royal York Rd<br>location_city: Etobicoke<br>location_province: ON<br>location_country: Canada<br>location_postal_code: M8Y 2V3<br>pastoral_charge_ms_num: 5140460]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="pastoral_charge_id">
+            <value>2039.0</value>
+          </Data>
+          <Data name="conference_name">
+            <value>Toronto Conference</value>
+          </Data>
+          <Data name="presbytery_name">
+            <value>South West Presbytery</value>
+          </Data>
+          <Data name="region_seq">
+            <value>10.0</value>
+          </Data>
+          <Data name="location_street">
+            <value>851 Royal York Rd</value>
+          </Data>
+          <Data name="location_city">
+            <value>Etobicoke</value>
+          </Data>
+          <Data name="location_province">
+            <value>ON</value>
+          </Data>
+          <Data name="location_country">
+            <value>Canada</value>
+          </Data>
+          <Data name="location_postal_code">
+            <value>M8Y 2V3</value>
+          </Data>
+          <Data name="pastoral_charge_ms_num">
+            <value>5140460.0</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Runnymede Pastoral Charge</name>
+        <address>432 Runnymede Rd Toronto ON Canada M6S 2Y8</address>
+        <description><![CDATA[pastoral_charge_id: 2041<br>conference_name: Toronto Conference<br>presbytery_name: South West Presbytery<br>region_seq: 10<br>location_street: 432 Runnymede Rd<br>location_city: Toronto<br>location_province: ON<br>location_country: Canada<br>location_postal_code: M6S 2Y8<br>pastoral_charge_ms_num: 5140470]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="pastoral_charge_id">
+            <value>2041.0</value>
+          </Data>
+          <Data name="conference_name">
+            <value>Toronto Conference</value>
+          </Data>
+          <Data name="presbytery_name">
+            <value>South West Presbytery</value>
+          </Data>
+          <Data name="region_seq">
+            <value>10.0</value>
+          </Data>
+          <Data name="location_street">
+            <value>432 Runnymede Rd</value>
+          </Data>
+          <Data name="location_city">
+            <value>Toronto</value>
+          </Data>
+          <Data name="location_province">
+            <value>ON</value>
+          </Data>
+          <Data name="location_country">
+            <value>Canada</value>
+          </Data>
+          <Data name="location_postal_code">
+            <value>M6S 2Y8</value>
+          </Data>
+          <Data name="pastoral_charge_ms_num">
+            <value>5140470.0</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Saint Luke's Pastoral Charge]]></name>
+        <address>353 Sherbourne St Toronto ON Canada M5A 2S3</address>
+        <description><![CDATA[pastoral_charge_id: 1965<br>conference_name: Toronto Conference<br>presbytery_name: Toronto Southeast Presbytery<br>region_seq: 10<br>location_street: 353 Sherbourne St<br>location_city: Toronto<br>location_province: ON<br>location_country: Canada<br>location_postal_code: M5A 2S3<br>pastoral_charge_ms_num: 5150430]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="pastoral_charge_id">
+            <value>1965.0</value>
+          </Data>
+          <Data name="conference_name">
+            <value>Toronto Conference</value>
+          </Data>
+          <Data name="presbytery_name">
+            <value>Toronto Southeast Presbytery</value>
+          </Data>
+          <Data name="region_seq">
+            <value>10.0</value>
+          </Data>
+          <Data name="location_street">
+            <value>353 Sherbourne St</value>
+          </Data>
+          <Data name="location_city">
+            <value>Toronto</value>
+          </Data>
+          <Data name="location_province">
+            <value>ON</value>
+          </Data>
+          <Data name="location_country">
+            <value>Canada</value>
+          </Data>
+          <Data name="location_postal_code">
+            <value>M5A 2S3</value>
+          </Data>
+          <Data name="pastoral_charge_ms_num">
+            <value>5150430.0</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Scarborough Bluffs Pastoral Charge</name>
+        <address>3739 Kingston Rd Scarborough ON Canada M1J 3H4</address>
+        <description><![CDATA[pastoral_charge_id: 1606177<br>conference_name: Toronto Conference<br>presbytery_name: Toronto Southeast Presbytery<br>region_seq: 10<br>location_street: 3739 Kingston Rd<br>location_city: Scarborough<br>location_province: ON<br>location_country: Canada<br>location_postal_code: M1J 3H4<br>pastoral_charge_ms_num: 5150440]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="pastoral_charge_id">
+            <value>1606177.0</value>
+          </Data>
+          <Data name="conference_name">
+            <value>Toronto Conference</value>
+          </Data>
+          <Data name="presbytery_name">
+            <value>Toronto Southeast Presbytery</value>
+          </Data>
+          <Data name="region_seq">
+            <value>10.0</value>
+          </Data>
+          <Data name="location_street">
+            <value>3739 Kingston Rd</value>
+          </Data>
+          <Data name="location_city">
+            <value>Scarborough</value>
+          </Data>
+          <Data name="location_province">
+            <value>ON</value>
+          </Data>
+          <Data name="location_country">
+            <value>Canada</value>
+          </Data>
+          <Data name="location_postal_code">
+            <value>M1J 3H4</value>
+          </Data>
+          <Data name="pastoral_charge_ms_num">
+            <value>5150440.0</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[St. Andrew's Pastoral Charge]]></name>
+        <address>117 Bloor St E Toronto ON Canada M4W 1A9</address>
+        <description><![CDATA[pastoral_charge_id: 1967<br>conference_name: Toronto Conference<br>presbytery_name: Toronto Southeast Presbytery<br>region_seq: 10<br>location_street: 117 Bloor St E<br>location_city: Toronto<br>location_province: ON<br>location_country: Canada<br>location_postal_code: M4W 1A9<br>pastoral_charge_ms_num: 5150450]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="pastoral_charge_id">
+            <value>1967.0</value>
+          </Data>
+          <Data name="conference_name">
+            <value>Toronto Conference</value>
+          </Data>
+          <Data name="presbytery_name">
+            <value>Toronto Southeast Presbytery</value>
+          </Data>
+          <Data name="region_seq">
+            <value>10.0</value>
+          </Data>
+          <Data name="location_street">
+            <value>117 Bloor St E</value>
+          </Data>
+          <Data name="location_city">
+            <value>Toronto</value>
+          </Data>
+          <Data name="location_province">
+            <value>ON</value>
+          </Data>
+          <Data name="location_country">
+            <value>Canada</value>
+          </Data>
+          <Data name="location_postal_code">
+            <value>M4W 1A9</value>
+          </Data>
+          <Data name="pastoral_charge_ms_num">
+            <value>5150450.0</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[St. James' Pastoral Charge]]></name>
+        <address>400 Burnhamthorpe Rd Etobicoke ON Canada M9B 2A8</address>
+        <description><![CDATA[pastoral_charge_id: 2045<br>conference_name: Toronto Conference<br>presbytery_name: South West Presbytery<br>region_seq: 10<br>location_street: 400 Burnhamthorpe Rd<br>location_city: Etobicoke<br>location_province: ON<br>location_country: Canada<br>location_postal_code: M9B 2A8<br>pastoral_charge_ms_num: 5140480]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="pastoral_charge_id">
+            <value>2045.0</value>
+          </Data>
+          <Data name="conference_name">
+            <value>Toronto Conference</value>
+          </Data>
+          <Data name="presbytery_name">
+            <value>South West Presbytery</value>
+          </Data>
+          <Data name="region_seq">
+            <value>10.0</value>
+          </Data>
+          <Data name="location_street">
+            <value>400 Burnhamthorpe Rd</value>
+          </Data>
+          <Data name="location_city">
+            <value>Etobicoke</value>
+          </Data>
+          <Data name="location_province">
+            <value>ON</value>
+          </Data>
+          <Data name="location_country">
+            <value>Canada</value>
+          </Data>
+          <Data name="location_postal_code">
+            <value>M9B 2A8</value>
+          </Data>
+          <Data name="pastoral_charge_ms_num">
+            <value>5140480.0</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[St. Mark's Pastoral Charge]]></name>
+        <address>115 Orton Park Rd Scarborough ON Canada M1G 3G9</address>
+        <description><![CDATA[pastoral_charge_id: 1891<br>conference_name: Toronto Conference<br>presbytery_name: Toronto Southeast Presbytery<br>region_seq: 10<br>location_street: 115 Orton Park Rd<br>location_city: Scarborough<br>location_province: ON<br>location_country: Canada<br>location_postal_code: M1G 3G9<br>pastoral_charge_ms_num: 5150470]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="pastoral_charge_id">
+            <value>1891.0</value>
+          </Data>
+          <Data name="conference_name">
+            <value>Toronto Conference</value>
+          </Data>
+          <Data name="presbytery_name">
+            <value>Toronto Southeast Presbytery</value>
+          </Data>
+          <Data name="region_seq">
+            <value>10.0</value>
+          </Data>
+          <Data name="location_street">
+            <value>115 Orton Park Rd</value>
+          </Data>
+          <Data name="location_city">
+            <value>Scarborough</value>
+          </Data>
+          <Data name="location_province">
+            <value>ON</value>
+          </Data>
+          <Data name="location_country">
+            <value>Canada</value>
+          </Data>
+          <Data name="location_postal_code">
+            <value>M1G 3G9</value>
+          </Data>
+          <Data name="pastoral_charge_ms_num">
+            <value>5150470.0</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[St. Matthew's Pastoral Charge]]></name>
+        <address>729 St Clair Ave W Toronto ON Canada M6C 1B2</address>
+        <description><![CDATA[pastoral_charge_id: 1973<br>conference_name: Toronto Conference<br>presbytery_name: Toronto Southeast Presbytery<br>region_seq: 10<br>location_street: 729 St Clair Ave W<br>location_city: Toronto<br>location_province: ON<br>location_country: Canada<br>location_postal_code: M6C 1B2<br>pastoral_charge_ms_num: 5150480]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="pastoral_charge_id">
+            <value>1973.0</value>
+          </Data>
+          <Data name="conference_name">
+            <value>Toronto Conference</value>
+          </Data>
+          <Data name="presbytery_name">
+            <value>Toronto Southeast Presbytery</value>
+          </Data>
+          <Data name="region_seq">
+            <value>10.0</value>
+          </Data>
+          <Data name="location_street">
+            <value>729 St Clair Ave W</value>
+          </Data>
+          <Data name="location_city">
+            <value>Toronto</value>
+          </Data>
+          <Data name="location_province">
+            <value>ON</value>
+          </Data>
+          <Data name="location_country">
+            <value>Canada</value>
+          </Data>
+          <Data name="location_postal_code">
+            <value>M6C 1B2</value>
+          </Data>
+          <Data name="pastoral_charge_ms_num">
+            <value>5150480.0</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[St. Paul's, Scarborough Pastoral Charge]]></name>
+        <address>200 McIntosh St Scarborough ON Canada M1N 3Z3</address>
+        <description><![CDATA[pastoral_charge_id: 1893<br>conference_name: Toronto Conference<br>presbytery_name: Toronto Southeast Presbytery<br>region_seq: 10<br>location_street: 200 McIntosh St<br>location_city: Scarborough<br>location_province: ON<br>location_country: Canada<br>location_postal_code: M1N 3Z3<br>pastoral_charge_ms_num: 5150490]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="pastoral_charge_id">
+            <value>1893.0</value>
+          </Data>
+          <Data name="conference_name">
+            <value>Toronto Conference</value>
+          </Data>
+          <Data name="presbytery_name">
+            <value>Toronto Southeast Presbytery</value>
+          </Data>
+          <Data name="region_seq">
+            <value>10.0</value>
+          </Data>
+          <Data name="location_street">
+            <value>200 McIntosh St</value>
+          </Data>
+          <Data name="location_city">
+            <value>Scarborough</value>
+          </Data>
+          <Data name="location_province">
+            <value>ON</value>
+          </Data>
+          <Data name="location_country">
+            <value>Canada</value>
+          </Data>
+          <Data name="location_postal_code">
+            <value>M1N 3Z3</value>
+          </Data>
+          <Data name="pastoral_charge_ms_num">
+            <value>5150490.0</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Taiwanese (EM) Pastoral Charge</name>
+        <address>53 Cummer Ave Willowdale ON Canada M2M 2E5</address>
+        <description><![CDATA[pastoral_charge_id: 1859<br>conference_name: Toronto Conference<br>presbytery_name: South West Presbytery<br>region_seq: 10<br>location_street: 53 Cummer Ave<br>location_city: Willowdale<br>location_province: ON<br>location_country: Canada<br>location_postal_code: M2M 2E5<br>pastoral_charge_ms_num: 5140510]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="pastoral_charge_id">
+            <value>1859.0</value>
+          </Data>
+          <Data name="conference_name">
+            <value>Toronto Conference</value>
+          </Data>
+          <Data name="presbytery_name">
+            <value>South West Presbytery</value>
+          </Data>
+          <Data name="region_seq">
+            <value>10.0</value>
+          </Data>
+          <Data name="location_street">
+            <value>53 Cummer Ave</value>
+          </Data>
+          <Data name="location_city">
+            <value>Willowdale</value>
+          </Data>
+          <Data name="location_province">
+            <value>ON</value>
+          </Data>
+          <Data name="location_country">
+            <value>Canada</value>
+          </Data>
+          <Data name="location_postal_code">
+            <value>M2M 2E5</value>
+          </Data>
+          <Data name="pastoral_charge_ms_num">
+            <value>5140510.0</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>The Donway Covenant Pastoral Charge</name>
+        <address>230 The Donway W North York ON Canada M3B 2V8</address>
+        <description><![CDATA[pastoral_charge_id: 1831<br>conference_name: Toronto Conference<br>presbytery_name: Toronto Southeast Presbytery<br>region_seq: 10<br>location_street: 230 The Donway W<br>location_city: North York<br>location_province: ON<br>location_country: Canada<br>location_postal_code: M3B 2V8<br>pastoral_charge_ms_num: 5150500]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="pastoral_charge_id">
+            <value>1831.0</value>
+          </Data>
+          <Data name="conference_name">
+            <value>Toronto Conference</value>
+          </Data>
+          <Data name="presbytery_name">
+            <value>Toronto Southeast Presbytery</value>
+          </Data>
+          <Data name="region_seq">
+            <value>10.0</value>
+          </Data>
+          <Data name="location_street">
+            <value>230 The Donway W</value>
+          </Data>
+          <Data name="location_city">
+            <value>North York</value>
+          </Data>
+          <Data name="location_province">
+            <value>ON</value>
+          </Data>
+          <Data name="location_country">
+            <value>Canada</value>
+          </Data>
+          <Data name="location_postal_code">
+            <value>M3B 2V8</value>
+          </Data>
+          <Data name="pastoral_charge_ms_num">
+            <value>5150500.0</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Timothy Eaton Memorial Pastoral Charge</name>
+        <address>230 St Clair Ave West Toronto ON Canada M4V 1R5</address>
+        <description><![CDATA[pastoral_charge_id: 1975<br>conference_name: Toronto Conference<br>presbytery_name: Toronto Southeast Presbytery<br>region_seq: 10<br>location_street: 230 St Clair Ave West<br>location_city: Toronto<br>location_province: ON<br>location_country: Canada<br>location_postal_code: M4V 1R5<br>pastoral_charge_ms_num: 5150510]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="pastoral_charge_id">
+            <value>1975.0</value>
+          </Data>
+          <Data name="conference_name">
+            <value>Toronto Conference</value>
+          </Data>
+          <Data name="presbytery_name">
+            <value>Toronto Southeast Presbytery</value>
+          </Data>
+          <Data name="region_seq">
+            <value>10.0</value>
+          </Data>
+          <Data name="location_street">
+            <value>230 St Clair Ave West</value>
+          </Data>
+          <Data name="location_city">
+            <value>Toronto</value>
+          </Data>
+          <Data name="location_province">
+            <value>ON</value>
+          </Data>
+          <Data name="location_country">
+            <value>Canada</value>
+          </Data>
+          <Data name="location_postal_code">
+            <value>M4V 1R5</value>
+          </Data>
+          <Data name="pastoral_charge_ms_num">
+            <value>5150510.0</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Toronto Chinese (EM) Pastoral Charge</name>
+        <address>3300 Kennedy Rd Scarborough ON Canada M1V 3S8</address>
+        <description><![CDATA[pastoral_charge_id: 1897<br>conference_name: Toronto Conference<br>presbytery_name: Toronto Southeast Presbytery<br>region_seq: 10<br>location_street: 3300 Kennedy Rd<br>location_city: Scarborough<br>location_province: ON<br>location_country: Canada<br>location_postal_code: M1V 3S8<br>pastoral_charge_ms_num: 5150520]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="pastoral_charge_id">
+            <value>1897.0</value>
+          </Data>
+          <Data name="conference_name">
+            <value>Toronto Conference</value>
+          </Data>
+          <Data name="presbytery_name">
+            <value>Toronto Southeast Presbytery</value>
+          </Data>
+          <Data name="region_seq">
+            <value>10.0</value>
+          </Data>
+          <Data name="location_street">
+            <value>3300 Kennedy Rd</value>
+          </Data>
+          <Data name="location_city">
+            <value>Scarborough</value>
+          </Data>
+          <Data name="location_province">
+            <value>ON</value>
+          </Data>
+          <Data name="location_country">
+            <value>Canada</value>
+          </Data>
+          <Data name="location_postal_code">
+            <value>M1V 3S8</value>
+          </Data>
+          <Data name="pastoral_charge_ms_num">
+            <value>5150520.0</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Trinity-St. Paul's Pastoral Charge]]></name>
+        <address>427 Bloor St W Toronto ON Canada M5S 1X7</address>
+        <description><![CDATA[pastoral_charge_id: 1979<br>conference_name: Toronto Conference<br>presbytery_name: Toronto Southeast Presbytery<br>region_seq: 10<br>location_street: 427 Bloor St W<br>location_city: Toronto<br>location_province: ON<br>location_country: Canada<br>location_postal_code: M5S 1X7<br>pastoral_charge_ms_num: 5150530]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="pastoral_charge_id">
+            <value>1979.0</value>
+          </Data>
+          <Data name="conference_name">
+            <value>Toronto Conference</value>
+          </Data>
+          <Data name="presbytery_name">
+            <value>Toronto Southeast Presbytery</value>
+          </Data>
+          <Data name="region_seq">
+            <value>10.0</value>
+          </Data>
+          <Data name="location_street">
+            <value>427 Bloor St W</value>
+          </Data>
+          <Data name="location_city">
+            <value>Toronto</value>
+          </Data>
+          <Data name="location_province">
+            <value>ON</value>
+          </Data>
+          <Data name="location_country">
+            <value>Canada</value>
+          </Data>
+          <Data name="location_postal_code">
+            <value>M5S 1X7</value>
+          </Data>
+          <Data name="pastoral_charge_ms_num">
+            <value>5150530.0</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Uganda Martyrs (EM) Pastoral Charge</name>
+        <address>2799 Weston Road Toronto ON Canada M9M 2R8</address>
+        <description><![CDATA[pastoral_charge_id: 1406542<br>conference_name: Toronto Conference<br>presbytery_name: South West Presbytery<br>region_seq: 10<br>location_street: 2799 Weston Road<br>location_city: Toronto<br>location_province: ON<br>location_country: Canada<br>location_postal_code: M9M 2R8<br>pastoral_charge_ms_num: 5140530]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="pastoral_charge_id">
+            <value>1406542.0</value>
+          </Data>
+          <Data name="conference_name">
+            <value>Toronto Conference</value>
+          </Data>
+          <Data name="presbytery_name">
+            <value>South West Presbytery</value>
+          </Data>
+          <Data name="region_seq">
+            <value>10.0</value>
+          </Data>
+          <Data name="location_street">
+            <value>2799 Weston Road</value>
+          </Data>
+          <Data name="location_city">
+            <value>Toronto</value>
+          </Data>
+          <Data name="location_province">
+            <value>ON</value>
+          </Data>
+          <Data name="location_country">
+            <value>Canada</value>
+          </Data>
+          <Data name="location_postal_code">
+            <value>M9M 2R8</value>
+          </Data>
+          <Data name="pastoral_charge_ms_num">
+            <value>5140530.0</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Victoria Park Pastoral Charge</name>
+        <address>1 Stamford Sq North Scarborough ON Canada M1L 1X4</address>
+        <description><![CDATA[pastoral_charge_id: 1899<br>conference_name: Toronto Conference<br>presbytery_name: Toronto Southeast Presbytery<br>region_seq: 10<br>location_street: 1 Stamford Sq North<br>location_city: Scarborough<br>location_province: ON<br>location_country: Canada<br>location_postal_code: M1L 1X4<br>pastoral_charge_ms_num: 5150540]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="pastoral_charge_id">
+            <value>1899.0</value>
+          </Data>
+          <Data name="conference_name">
+            <value>Toronto Conference</value>
+          </Data>
+          <Data name="presbytery_name">
+            <value>Toronto Southeast Presbytery</value>
+          </Data>
+          <Data name="region_seq">
+            <value>10.0</value>
+          </Data>
+          <Data name="location_street">
+            <value>1 Stamford Sq North</value>
+          </Data>
+          <Data name="location_city">
+            <value>Scarborough</value>
+          </Data>
+          <Data name="location_province">
+            <value>ON</value>
+          </Data>
+          <Data name="location_country">
+            <value>Canada</value>
+          </Data>
+          <Data name="location_postal_code">
+            <value>M1L 1X4</value>
+          </Data>
+          <Data name="pastoral_charge_ms_num">
+            <value>5150540.0</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Wesley, Mimico Pastoral Charge</name>
+        <address>403-2405 Lakeshore Blvd W Toronto ON Canada M8V 1C6</address>
+        <description><![CDATA[pastoral_charge_id: 2057<br>conference_name: Toronto Conference<br>presbytery_name: South West Presbytery<br>region_seq: 10<br>location_street: 403-2405 Lakeshore Blvd W<br>location_city: Toronto<br>location_province: ON<br>location_country: Canada<br>location_postal_code: M8V 1C6<br>pastoral_charge_ms_num: 5140540]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="pastoral_charge_id">
+            <value>2057.0</value>
+          </Data>
+          <Data name="conference_name">
+            <value>Toronto Conference</value>
+          </Data>
+          <Data name="presbytery_name">
+            <value>South West Presbytery</value>
+          </Data>
+          <Data name="region_seq">
+            <value>10.0</value>
+          </Data>
+          <Data name="location_street">
+            <value>403-2405 Lakeshore Blvd W</value>
+          </Data>
+          <Data name="location_city">
+            <value>Toronto</value>
+          </Data>
+          <Data name="location_province">
+            <value>ON</value>
+          </Data>
+          <Data name="location_country">
+            <value>Canada</value>
+          </Data>
+          <Data name="location_postal_code">
+            <value>M8V 1C6</value>
+          </Data>
+          <Data name="pastoral_charge_ms_num">
+            <value>5140540.0</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>West Ellesmere Community Pastoral Charge</name>
+        <address>37 Marchington Cir Scarborough ON Canada M1R 3M6</address>
+        <description><![CDATA[pastoral_charge_id: 1905<br>conference_name: Toronto Conference<br>presbytery_name: Toronto Southeast Presbytery<br>region_seq: 10<br>location_street: 37 Marchington Cir<br>location_city: Scarborough<br>location_province: ON<br>location_country: Canada<br>location_postal_code: M1R 3M6<br>pastoral_charge_ms_num: 5150560]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="pastoral_charge_id">
+            <value>1905.0</value>
+          </Data>
+          <Data name="conference_name">
+            <value>Toronto Conference</value>
+          </Data>
+          <Data name="presbytery_name">
+            <value>Toronto Southeast Presbytery</value>
+          </Data>
+          <Data name="region_seq">
+            <value>10.0</value>
+          </Data>
+          <Data name="location_street">
+            <value>37 Marchington Cir</value>
+          </Data>
+          <Data name="location_city">
+            <value>Scarborough</value>
+          </Data>
+          <Data name="location_province">
+            <value>ON</value>
+          </Data>
+          <Data name="location_country">
+            <value>Canada</value>
+          </Data>
+          <Data name="location_postal_code">
+            <value>M1R 3M6</value>
+          </Data>
+          <Data name="pastoral_charge_ms_num">
+            <value>5150560.0</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>West Hill Pastoral Charge</name>
+        <address>62 Orchard Park Dr West Hill ON Canada M1E 3T7</address>
+        <description><![CDATA[pastoral_charge_id: 1907<br>conference_name: Toronto Conference<br>presbytery_name: Toronto Southeast Presbytery<br>region_seq: 10<br>location_street: 62 Orchard Park Dr<br>location_city: West Hill<br>location_province: ON<br>location_country: Canada<br>location_postal_code: M1E 3T7<br>pastoral_charge_ms_num: 5150570]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="pastoral_charge_id">
+            <value>1907.0</value>
+          </Data>
+          <Data name="conference_name">
+            <value>Toronto Conference</value>
+          </Data>
+          <Data name="presbytery_name">
+            <value>Toronto Southeast Presbytery</value>
+          </Data>
+          <Data name="region_seq">
+            <value>10.0</value>
+          </Data>
+          <Data name="location_street">
+            <value>62 Orchard Park Dr</value>
+          </Data>
+          <Data name="location_city">
+            <value>West Hill</value>
+          </Data>
+          <Data name="location_province">
+            <value>ON</value>
+          </Data>
+          <Data name="location_country">
+            <value>Canada</value>
+          </Data>
+          <Data name="location_postal_code">
+            <value>M1E 3T7</value>
+          </Data>
+          <Data name="pastoral_charge_ms_num">
+            <value>5150570.0</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Westway Pastoral Charge</name>
+        <address>8 Templar Dr Etobicoke ON Canada M9R 3C7</address>
+        <description><![CDATA[pastoral_charge_id: 2065<br>conference_name: Toronto Conference<br>presbytery_name: South West Presbytery<br>region_seq: 10<br>location_street: 8 Templar Dr<br>location_city: Etobicoke<br>location_province: ON<br>location_country: Canada<br>location_postal_code: M9R 3C7<br>pastoral_charge_ms_num: 5140560]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="pastoral_charge_id">
+            <value>2065.0</value>
+          </Data>
+          <Data name="conference_name">
+            <value>Toronto Conference</value>
+          </Data>
+          <Data name="presbytery_name">
+            <value>South West Presbytery</value>
+          </Data>
+          <Data name="region_seq">
+            <value>10.0</value>
+          </Data>
+          <Data name="location_street">
+            <value>8 Templar Dr</value>
+          </Data>
+          <Data name="location_city">
+            <value>Etobicoke</value>
+          </Data>
+          <Data name="location_province">
+            <value>ON</value>
+          </Data>
+          <Data name="location_country">
+            <value>Canada</value>
+          </Data>
+          <Data name="location_postal_code">
+            <value>M9R 3C7</value>
+          </Data>
+          <Data name="pastoral_charge_ms_num">
+            <value>5140560.0</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Wexford Heights Pastoral Charge</name>
+        <address>2102 Lawrence Ave E Scarborough ON Canada M1R 2Z9</address>
+        <description><![CDATA[pastoral_charge_id: 1457836<br>conference_name: Toronto Conference<br>presbytery_name: Toronto Southeast Presbytery<br>region_seq: 10<br>location_street: 2102 Lawrence Ave E<br>location_city: Scarborough<br>location_province: ON<br>location_country: Canada<br>location_postal_code: M1R 2Z9<br>pastoral_charge_ms_num: 5150580]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="pastoral_charge_id">
+            <value>1457836.0</value>
+          </Data>
+          <Data name="conference_name">
+            <value>Toronto Conference</value>
+          </Data>
+          <Data name="presbytery_name">
+            <value>Toronto Southeast Presbytery</value>
+          </Data>
+          <Data name="region_seq">
+            <value>10.0</value>
+          </Data>
+          <Data name="location_street">
+            <value>2102 Lawrence Ave E</value>
+          </Data>
+          <Data name="location_city">
+            <value>Scarborough</value>
+          </Data>
+          <Data name="location_province">
+            <value>ON</value>
+          </Data>
+          <Data name="location_country">
+            <value>Canada</value>
+          </Data>
+          <Data name="location_postal_code">
+            <value>M1R 2Z9</value>
+          </Data>
+          <Data name="pastoral_charge_ms_num">
+            <value>5150580.0</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Willowdale Emmanuel Pastoral Charge</name>
+        <address>349 Kenneth Ave Toronto ON Canada M2N 4V9</address>
+        <description><![CDATA[pastoral_charge_id: 1971774<br>conference_name: Toronto Conference<br>presbytery_name: South West Presbytery<br>region_seq: 10<br>location_street: 349 Kenneth Ave<br>location_city: Toronto<br>location_province: ON<br>location_country: Canada<br>location_postal_code: M2N 4V9<br>pastoral_charge_ms_num: 5140680]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="pastoral_charge_id">
+            <value>1971774.0</value>
+          </Data>
+          <Data name="conference_name">
+            <value>Toronto Conference</value>
+          </Data>
+          <Data name="presbytery_name">
+            <value>South West Presbytery</value>
+          </Data>
+          <Data name="region_seq">
+            <value>10.0</value>
+          </Data>
+          <Data name="location_street">
+            <value>349 Kenneth Ave</value>
+          </Data>
+          <Data name="location_city">
+            <value>Toronto</value>
+          </Data>
+          <Data name="location_province">
+            <value>ON</value>
+          </Data>
+          <Data name="location_country">
+            <value>Canada</value>
+          </Data>
+          <Data name="location_postal_code">
+            <value>M2N 4V9</value>
+          </Data>
+          <Data name="pastoral_charge_ms_num">
+            <value>5140680.0</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Windermere Pastoral Charge</name>
+        <address>356 Windermere Ave Toronto ON Canada M6S 3L3</address>
+        <description><![CDATA[pastoral_charge_id: 2067<br>conference_name: Toronto Conference<br>presbytery_name: South West Presbytery<br>region_seq: 10<br>location_street: 356 Windermere Ave<br>location_city: Toronto<br>location_province: ON<br>location_country: Canada<br>location_postal_code: M6S 3L3<br>pastoral_charge_ms_num: 5140580]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="pastoral_charge_id">
+            <value>2067.0</value>
+          </Data>
+          <Data name="conference_name">
+            <value>Toronto Conference</value>
+          </Data>
+          <Data name="presbytery_name">
+            <value>South West Presbytery</value>
+          </Data>
+          <Data name="region_seq">
+            <value>10.0</value>
+          </Data>
+          <Data name="location_street">
+            <value>356 Windermere Ave</value>
+          </Data>
+          <Data name="location_city">
+            <value>Toronto</value>
+          </Data>
+          <Data name="location_province">
+            <value>ON</value>
+          </Data>
+          <Data name="location_country">
+            <value>Canada</value>
+          </Data>
+          <Data name="location_postal_code">
+            <value>M6S 3L3</value>
+          </Data>
+          <Data name="pastoral_charge_ms_num">
+            <value>5140580.0</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Untitled layer</name>
+      <Placemark>
+        <name>Toronto West</name>
+        <styleUrl>#poly-E65100-1200-77-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -79.6277904,43.7339093,0
+                -79.5999812,43.6857643,0
+                -79.5903682,43.6716112,0
+                -79.5962047,43.6572064,0
+                -79.5711421,43.6338534,0
+                -79.5653056,43.6263984,0
+                -79.563589,43.6035306,0
+                -79.5395564,43.5814003,0
+                -79.4973277,43.585628,0
+                -79.4557857,43.6142199,0
+                -79.5162105,43.7760665,0
+                -79.6321016,43.7520256,0
+                -79.6277904,43.7339093,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Toronto North</name>
+        <styleUrl>#poly-7CB342-1200-77-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -79.5162105,43.7760665,0
+                -79.4839382,43.6879987,0
+                -79.3641185,43.7128196,0
+                -79.3294429,43.7222489,0
+                -79.3466091,43.8097708,0
+                -79.3510723,43.8127438,0
+                -79.5162105,43.7760665,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Toronto South</name>
+        <styleUrl>#poly-0288D1-1200-77-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -79.4839382,43.6879987,0
+                -79.4557857,43.6142199,0
+                -79.3430983,43.6456112,0
+                -79.3568312,43.6679663,0
+                -79.3623244,43.6783959,0
+                -79.3599211,43.6915543,0
+                -79.3489348,43.6980084,0
+                -79.3406951,43.6975119,0
+                -79.3300521,43.708929,0
+                -79.3252455,43.7136442,0
+                -79.3294429,43.7222489,0
+                -79.3641185,43.7128196,0
+                -79.4839382,43.6879987,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Toronto East</name>
+        <styleUrl>#poly-FFEA00-1200-77-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -79.3510723,43.8127438,0
+                -79.3466091,43.8097708,0
+                -79.3294429,43.7222489,0
+                -79.3252455,43.7136442,0
+                -79.3406951,43.6975119,0
+                -79.3489348,43.6980084,0
+                -79.3599211,43.6915543,0
+                -79.3623244,43.6783959,0
+                -79.3430983,43.6456112,0
+                -79.3156325,43.6543059,0
+                -79.3084227,43.6523186,0
+                -79.2562377,43.6833617,0
+                -79.2287718,43.6970155,0
+                -79.1535842,43.7498638,0
+                -79.1127288,43.7907705,0
+                -79.1566741,43.812576,0
+                -79.168347,43.8294203,0
+                -79.18002,43.8529448,0
+                -79.3510723,43.8127438,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

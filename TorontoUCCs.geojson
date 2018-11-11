@@ -1,0 +1,10 @@
+{
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [43.60332, -79.55114]
+	},
+	"properties": {
+		"name": "Alderwood United Church"
+	}
+}
